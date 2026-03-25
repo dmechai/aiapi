@@ -1,730 +1,735 @@
-# AI API Third-Party Transfer Station Collection (2026 Latest · Open Source Edition)
+# AI API 第三方中转站超级合集（2026最新版 · 开源版）
 
 ![GitHub](https://img.shields.io/badge/AI--API--Transfer-Station-orange?style=flat-square)
 
-**[中文](README.zh-CN.md) | English**
+**中文 | [English](README.en.md)**
 
-Last Updated: March 25, 2026
+最后更新：2026年3月25日
 
-📢 **Open Source Statement**: This repository collects and organizes all AI API third-party transfer stations available on the market, covering domestic/international, comprehensive/specialized, open-source/commercial and other full types, totaling 300+ platforms, suitable for personal testing, enterprise production, developer calls and other full scenarios. Continuously updated, welcome to Star ✨, Fork 🍴 and contribute.
+📢 **开源说明**：本仓库搜集整理市面上所有AI API第三方中转站，覆盖国内/国际、综合/专用、开源/商用等全类型，共300+家，适配个人测试、企业生产、开发者调用等全场景，持续更新中，欢迎Star ✨、Fork 🍴 补充完善。
 
----
+⚠️ 重要风险提示
 
-## ⚠️ Important Risk Warning
+- 超低价平台（远低于官方定价）多采用「网页转API」「退款池」「盗刷额度」「低价区代充」「模型掺水」等方式，稳定性差、随时可能断服，仅适合短期测试，不建议生产环境使用。
 
-- **Ultra-low price platforms** (far below official pricing) often use "web-to-API", "refund pools", "stolen quotas", "low-price zone proxy recharge", "diluted models" and other methods. Poor stability, may disconnect anytime, only suitable for short-term testing, not recommended for production environments.
+- 生产环境优先选择「官转专线」「合规备案」「支持企业开票」的平台，保障服务稳定性和数据安全。
 
-- **Production environments** should prioritize platforms with "official transfer lines", "compliance filing", and "enterprise invoicing" to ensure service stability and data security.
+- 敏感数据（企业机密、个人隐私等）请勿通过非合规中转站传输，避免数据泄露风险。
 
-- **Sensitive data** (corporate secrets, personal privacy, etc.) should not be transmitted through non-compliant transfer stations to avoid data leakage risks.
-
-- This collection is for **information purposes only**, not commercial recommendations. Please verify qualifications and test with small amounts before using any platform.
+- 本合集仅为信息整理，不做任何商业推荐，使用任何平台前请自行核实资质、小额测试。
 
 ---
 
-## Table of Contents
+## 目录
 
-1. [Domestic Comprehensive Transfer Stations (85)](#1-domestic-comprehensive-transfer-stations-85) - Chinese customer service + Alipay/WeChat + invoicing, suitable for enterprises/individuals
-2. [Domestic Open Source Model Transfer Stations (55)](#2-domestic-open-source-model-transfer-stations-55) - Focus on Llama/Qwen/DeepSeek and other open source models
-3. [Claude Code/CodeX/Gemini CLI Transfer Stations (70)](#3-claude-codecodexgemini-cli-transfer-stations-70) - Only for IDE/CLI environment calls
-4. [International AI API Transfer Stations (50)](#4-international-ai-api-transfer-stations-50) - Overseas official transfer, most complete models, stability priority
-5. [Lightweight Testing/Niche Transfer Stations (40)](#5-lightweight-testingniche-transfer-stations-40) - Free testing credits, small amounts available, suitable for short-term testing
-6. [Quick Selection Guide](#6-quick-selection-guide) - Quickly match the best platform by scenario
-7. [Safety & Avoiding Pitfalls Guide](#7-safety--avoiding-pitfalls-guide) - Must-read for beginners to avoid pitfalls
-8. [Contribution Guide](#8-contribution-guide) - How to supplement new transfer station information
+1. [国内综合全能中转站（85家）](https://www.doubao.cn) - 中文客服+支付宝/微信+可开票，适配企业/个人
+
+2. [国内开源模型专属中转站（55家）](https://www.doubao.cn) - 专注Llama/Qwen/DeepSeek等开源模型
+
+3. [Claude Code/CodeX/Gemini CLI专用中转站（70家）](https://www.doubao.cn) - 仅适配IDE/CLI环境调用
+
+4. [国际AI API中转站（50家）](https://www.doubao.cn) - 海外官转、模型最全、稳定优先
+
+5. [轻量测试/小众中转站（40家）](https://www.doubao.cn) - 送测试金、小额可用，适合短期测试
+
+6. [选型速查表](https://www.doubao.cn) - 按场景快速匹配最优平台
+
+7. [安全避坑指南](https://www.doubao.cn) - 新手必看，避免踩雷
+
+8. [贡献指南](https://www.doubao.cn) - 如何补充新的中转站信息
 
 ---
 
-## 1. Domestic Comprehensive Transfer Stations (85)
+## 一、国内综合全能中转站（85家）
 
-✅ **Core Features**: Support Chinese customer service, Alipay/WeChat payment, enterprise invoicing, compatible with GPT-4, Claude, Gemini, domestic large models and other full types, moderate stability, suitable for enterprise production and personal development.
+✅ 核心特点：支持中文客服、支付宝/微信支付、可开具企业发票，兼容GPT-4、Claude、Gemini、国内大模型等全类型，稳定性适中，适配企业生产和个人开发。
 
-⚠️ **Note**: The following URLs marked as "inactive" cannot be accessed normally after testing, and those marked as "pending verification" have unstable access, please use with caution.
+⚠️ 说明：以下标注「失效」的网址经检测无法正常访问，标注「待验证」的网址访问不稳定，建议谨慎使用。
 
-1. **4SAPI (Starlink Engine)**: https://api.4sapi.com - "Government-enterprise level stability, CN2 dedicated line, low latency, SLA guarantee"
+1. 4SAPI（星链引擎）：https://api.4sapi.com 「政企级稳定、CN2专线、低延迟、SLA保障」
 
-2. **147API**: https://147api.com - "Fully OpenAI compatible, 100+ models, multimodal, pay-as-you-go"
+2. 147API：https://147api.com 「OpenAI完全兼容、100+模型、多模态、按量计费」
 
-3. **PoloAPI**: https://poloai.top - "Balanced stability, supports Claude Code/CodeX, high cost performance"
+3. PoloAPI：https://poloai.top 「均衡稳定、支持Claude Code/CodeX、性价比高」
 
-4. **Weelinking**: https://www.weelinking.com - "99.9% availability, multi-layer redundancy, 0.8 yuan/USD"
+4. Weelinking：https://www.weelinking.com 「99.9%可用性、多层冗余、0.8元/美元」
 
-5. **YibuAPI**: https://yibuapi.com - "Cross-border compliance, enterprise-level, finance/manufacturing/medical adaptation" [Inactive]
+5. 一步API：https://yibuapi.com 「跨境合规、企业级、金融/制造/医疗适配」【失效】
 
-6. **JiekouAI**: https://jiekou.ai - "Full model support, simple and easy to use, general for individuals/enterprises" [Inactive]
+6. 接口AI：https://jiekou.ai 「全模型支持、简单易用、个人/企业通用」【失效】
 
-7. **proaiapi.tech** - "Simple and efficient, pay-as-you-go, supports multi-model switching" [Inactive, no valid URL]
+7. proaiapi.tech 「简洁高效、按量计费、支持多模型切换」【失效，无有效网址】
 
-8. **n1n.ai** - "Low latency, beginner-friendly, free testing credits upon registration" [Inactive]
+8. n1n.ai 「低延迟、新手友好、注册送测试金」【失效】
 
-9. **LingyaAPI**: https://lingyaapi.com - "Domestic dedicated line, stable and reliable, invoicing available" [Inactive]
+9. 灵芽API：https://lingyaapi.com 「国内专线、稳定可靠、可开票」【失效】
 
-10. **Simple API Transfer Station**: https://cnn-api.github.io/ - "Open source and free, suitable for testing, lightweight calls"
+10. 简易API中转站：https://cnn-api.github.io/ 「开源免费、适合测试、轻量调用」
 
-11. **AIGC66API**: https://aigc66.com - "Multi-model aggregation, transparent pricing, supports batch calls" [Inactive]
+11. AIGC66API：https://aigc66.com 「多模型聚合、价格透明、支持批量调用」【失效】
 
-12. **AIQuick**: https://aiquick.cn - "High-speed line, low latency, preferred for personal testing" [Inactive]
+12. AI快连：https://aiquick.cn 「高速线路、低延迟、个人测试首选」【失效】
 
-13. **YunsuAI**: https://yunsuai.com - "Enterprise-level service, customized solutions, compliance filing" [Inactive]
+13. 云速AI：https://yunsuai.com 「企业级服务、定制化方案、合规备案」【失效】
 
-14. **ZhihuiAPI**: https://zhihuiapi.com - "Full coverage of domestic large models, Chinese technical support" [Inactive]
+14. 智汇API：https://zhihuiapi.com 「国内大模型全覆盖、中文技术支持」【失效】
 
-15. **TiangongAPI**: https://tiangongapi.com - "Multimodal support, general for images/text/voice" [Inactive]
+15. 天工API：https://tiangongapi.com 「多模态支持、图片/文本/语音通用」【失效】
 
-16. **XingyunAPI**: https://xingyunapi.com - "High concurrency support, suitable for high-traffic scenarios" [Inactive]
+16. 星云API：https://xingyunapi.com 「高并发支持、适合流量较大场景」【失效】
 
-17. **JiguangAI**: https://jiguangai.com - "Low price, high stability, available for individuals/enterprises" [Inactive]
+17. 极光AI：https://jiguangai.com 「低价格、高稳定、个人/企业均可使用」【失效】
 
-18. **ShandianAPI**: https://shandianapi.com - "Extremely fast response, latency ≤100ms, multi-line backup" [Inactive]
+18. 闪电API：https://shandianapi.com 「极速响应、延迟≤100ms、多线路备份」【失效】
 
-19. **FeilianAPI**: https://feilianapi.com - "OpenAI official transfer, full stability, invoicing available" [Inactive]
+19. 飞链API：https://feilianapi.com 「OpenAI官转、稳定性拉满、可开票」【失效】
 
-20. **ZhilianAPI**: https://zhilianapi.com - "Multi-model aggregation, pay-as-you-go, no minimum consumption" [Inactive]
+20. 智链API：https://zhilianapi.com 「多模型聚合、按需计费、无最低消费」【失效】
 
-21. **YunfanAPI**: https://yunfanapi.com - "Domestic dedicated line, supports large file processing, multimodal" [Inactive]
+21. 云帆API：https://yunfanapi.com 「国内专线、支持大文件处理、多模态」【失效】
 
-22. **HainaAI**: https://hainai.com - "Enterprise-level solutions, data security guarantee" [Inactive]
+22. 海纳AI：https://hainai.com 「企业级解决方案、数据安全保障」【失效】
 
-23. **BaichuanAPI**: https://baichuanapi.com - "Baichuan large model exclusive, compatible with third-party models" [Pending verification]
+23. 百川API：https://baichuanapi.com 「百川大模型专属、兼容第三方模型」【待验证】
 
-24. **QianwenAPI**: https://qianwenapi.com - "Alibaba Qianwen exclusive, bound to Alibaba Cloud, stable and reliable" [Inactive, recommended to visit Alibaba Cloud Qianwen official]
+24. 千问API：https://qianwenapi.com 「阿里千问专属、绑定阿里云、稳定可靠」【失效，建议直接访问阿里云千问官方】
 
-25. **XinghuoAPI**: https://xinghuoapi.com - "iFlytek Xinghuo exclusive, Chinese optimization, multi-scenario adaptation" [Inactive, recommended to visit iFlytek Xinghuo Open Platform: https://xinghuo.xfyun.cn]
+25. 星火API：https://xinghuoapi.com 「讯飞星火专属、中文优化、多场景适配」【失效，建议访问讯飞星火开放平台：https://xinghuo.xfyun.cn】
 
-26. **TongyiAPI**: https://tongyiapi.com - "Alibaba Cloud Tongyi Qianwen, enterprise-level service, invoicing available" [Inactive, recommended to visit Alibaba Cloud Tongyi Qianwen official]
+26. 通义API：https://tongyiapi.com 「阿里云通义千问、企业级服务、可开票」【失效，建议访问阿里云通义千问官方】
 
-27. **WenxinAPI**: https://wenxinapi.com - "Baidu Wenxin Yiyan exclusive, multi-model support" [Inactive, recommended to visit Baidu AI Cloud official]
+27. 文心API：https://wenxinapi.com 「百度文心一言专属、多模型支持」【失效，建议访问百度智能云官方】
 
-28. **ZhipuAPI**: https://zhipuapi.com - "Zhipu AI exclusive, open source model compatible, low price and efficient" [Pending verification]
+28. 智谱API：https://zhipuapi.com 「智谱AI专属、开源模型兼容、低价高效」【待验证】
 
-29. **KunlunAPI**: https://kunlunapi.com - "Kunlunwanwei large model, multimodal, high concurrency" [Inactive, recommended to visit Kunlunwanwei official: https://kunlun.com]
+29. 昆仑API：https://kunlunapi.com 「昆仑万维大模型、多模态、高并发」【失效，建议访问昆仑万维官方：https://kunlun.com】
 
-30. **YuezhiAPI**: https://yuezhiapi.com - "Moonshot AI large model, enterprise-level, compliance filing" [Inactive, recommended to visit Moonshot AI official: https://moonshotai.com]
+30. 月之暗面API：https://yuezhiapi.com 「月之暗面大模型、企业级、合规备案」【失效，建议访问月之暗面官方：https://moonshotai.com】
 
-31. **LingyiAPI**: https://lingyiapi.com - "01.AI large model, general for individuals/enterprises" [Inactive, recommended to visit 01.AI official: https://lingyi.ai]
+31. 零一API：https://lingyiapi.com 「零一万物大模型、个人/企业通用」【失效，建议访问零一万物官方：https://lingyi.ai】
 
-32. **ShenyanAPI**: https://shenyanapi.com - "Shenyan Technology large model, Chinese optimization, precise response" [Inactive, recommended to visit Shenyan Technology official: https://shenyan.ai]
+32. 深言API：https://shenyanapi.com 「深言科技大模型、中文优化、精准响应」【失效，建议访问深言科技官方：https://shenyan.ai】
 
-33. **MitaAPI**: https://mitaapi.com - "MetaSo large model, focused on document processing, multi-format support" [Inactive, recommended to visit MetaSo Technology official: https://metaso.cn]
+33. 秘塔API：https://mitaapi.com 「秘塔大模型、专注文档处理、多格式支持」【失效，建议访问秘塔科技官方：https://metaso.cn】
 
-34. **YunqueAPI**: https://yunqueapi.com - "Yunque large model, lightweight and efficient, testing-friendly" [Inactive, recommended to visit Yunque Intelligence official: https://yunque.ai]
+34. 云雀API：https://yunqueapi.com 「云雀大模型、轻量高效、测试友好」【失效，建议访问云雀智能官方：https://yunque.ai】
 
-35. **LingxinAPI**: https://lingxinapi.com - "Lingxin Intelligence large model, emotional interaction optimization" [Inactive, recommended to visit Lingxin Intelligence official: https://lingxin.ai]
+35. 聆心API：https://lingxinapi.com 「聆心智能大模型、情感交互优化」【失效，建议访问聆心智能官方：https://lingxin.ai】
 
-36. **LingxinZN API**: https://lingxinzn.com - "Lingxin Intelligence exclusive, multi-scenario adaptation" [Inactive]
+36. 聆心智能API：https://lingxinzn.com 「聆心智能专属、多场景适配」【失效】
 
-37. **XiaobingAPI**: https://xiaobingapi.com - "Microsoft Xiaobing exclusive, emotional interaction, multimodal" [Inactive, recommended to visit Xiaobing Company official: https://www.xiaoice.com]
+37. 小冰API：https://xiaobingapi.com 「微软小冰专属、情感交互、多模态」【失效，建议访问小冰公司官方：https://www.xiaoice.com】
 
-38. **ShangtangAPI**: https://shangtangapi.com - "SenseTime large model, strong image recognition, enterprise-level" [Inactive, recommended to visit SenseTime Rixin official: https://dayu.sensetime.com]
+38. 商汤API：https://shangtangapi.com 「商汤大模型、图像识别强项、企业级」【失效，建议访问商汤日日新官方：https://dayu.sensetime.com】
 
-39. **KuangshiAPI**: https://kuangshiapi.com - "Megvii large model, computer vision, compliance filing" [Inactive, recommended to visit Megvii Tianyuan official: https://megvii.com]
+39. 旷视API：https://kuangshiapi.com 「旷视大模型、计算机视觉、合规备案」【失效，建议访问旷视天元官方：https://megvii.com】
 
-40. **YituAPI**: https://yituapi.com - "Yitu large model, image recognition, enterprise-level service" [Inactive]
+40. 依图API：https://yituapi.com 「依图大模型、图像识别、企业级服务」【失效】
 
-41. **YuncongAPI**: https://yuncongapi.com - "CloudWalk Technology large model, strong biometric recognition" [Inactive, recommended to visit CloudWalk Congrong official: https://yuncongtech.com]
+41. 云从API：https://yuncongapi.com 「云从科技大模型、生物识别强项」【失效，建议访问云从从容官方：https://yuncongtech.com】
 
-42. **GalingAPI**: https://galingapi.com - "General Vision large model, computer vision, high precision" [Inactive, recommended to visit General Vision official: https://generalvision.com]
+42. 格灵API：https://galingapi.com 「格灵深瞳大模型、计算机视觉、高精准」【失效，建议访问格灵深瞳官方：https://generalvision.com】
 
-43. **SibichiAPI**: https://sibichiapi.com - "AISpeech large model, strong voice recognition" [Inactive, recommended to visit AISpeech Tianqin official: https://aispeech.com]
+43. 思必驰API：https://sibichiapi.com 「思必驰大模型、语音识别强项」【失效，建议访问思必驰天琴官方：https://aispeech.com】
 
-44. **YunzhishengAPI**: https://yunzhishengapi.com - "Yunzhisheng large model, voice interaction, multi-scenario" [Inactive, recommended to visit Yunzhisheng Shanhai official: https://yunzhisheng.com]
+44. 云知声API：https://yunzhishengapi.com 「云知声大模型、语音交互、多场景」【失效，建议访问云知声山海官方：https://yunzhisheng.com】
 
-45. **JietongAPI**: https://jietongapi.com - "Jietong Huasheng large model, strong voice synthesis" [Inactive, recommended to visit Jietong Huasheng Lingyun official: https://ai-jthc.com]
+45. 捷通华声API：https://jietongapi.com 「捷通华声大模型、语音合成强项」【失效，建议访问捷通华声灵云官方：https://ai-jthc.com】
 
-46. **XunfeiAPI**: https://xunfeiapi.com - "iFlytek Xinghuo exclusive, strong voice/text" [Inactive, recommended to visit iFlytek Xinghuo Open Platform: https://xinghuo.xfyun.cn]
+46. 科大讯飞API：https://xunfeiapi.com 「讯飞星火专属、语音/文本双强项」【失效，建议访问讯飞星火开放平台：https://xinghuo.xfyun.cn】
 
-47. **BaiduAPI**: https://baiduapi.com - "Baidu full series models, stable and reliable, invoicing available" [Inactive, recommended to visit Baidu AI Cloud official]
+47. 百度智能云API：https://baiduapi.com 「百度全系列模型、稳定可靠、可开票」【失效，建议访问百度智能云官方】
 
-48. **AliyunAPI**: https://aliyunapi.com - "Alibaba Cloud full series models, enterprise-level service" [Inactive, recommended to visit Alibaba Cloud official]
+48. 阿里云API：https://aliyunapi.com 「阿里云全系列模型、企业级服务」【失效，建议访问阿里云官方】
 
-49. **TencentAPI**: https://tencentapi.com - "Tencent Cloud full series models, multi-scenario adaptation" [Inactive, recommended to visit Tencent Cloud official]
+49. 腾讯云API：https://tencentapi.com 「腾讯云全系列模型、多场景适配」【失效，建议访问腾讯云官方】
 
-50. **HuaweiCloudAPI**: https://huaweicloudapi.com - "Huawei Cloud Pangu large model, enterprise-level compliance" [Inactive, recommended to visit Huawei Cloud Pangu official: https://pangu.huaweicloud.com]
+50. 华为云API：https://huaweicloudapi.com 「华为云盘古大模型、企业级合规」【失效，建议访问华为云盘古官方：https://pangu.huaweicloud.com】
 
-51. **JinshanAPI**: https://jinshanapi.com - "Kingsoft Cloud large model, strong document processing" [Inactive]
+51. 金山云API：https://jinshanapi.com 「金山云大模型、文档处理强项」【失效】
 
-52. **JDCloudAPI**: https://jdcloudapi.com - "JD Cloud large model, e-commerce scenario adaptation" [Inactive]
+52. 京东云API：https://jdcloudapi.com 「京东云大模型、电商场景适配」【失效】
 
-53. **MeituanAPI**: https://meituanapi.com - "Meituan Cloud large model, local life scenario adaptation" [Inactive]
+53. 美团云API：https://meituanapi.com 「美团云大模型、本地生活场景适配」【失效】
 
-54. **DidiAPI**: https://didiapi.com - "Didi Cloud large model, travel scenario adaptation" [Inactive]
+54. 滴滴云API：https://didiapi.com 「滴滴云大模型、出行场景适配」【失效】
 
-55. **BytedanceAPI**: https://bytedanceapi.com - "ByteDance large model, short video scenario adaptation" [Inactive]
+55. 字节云API：https://bytedanceapi.com 「字节跳动大模型、短视频场景适配」【失效】
 
-56. **XiaomiAPI**: https://xiaomiapi.com - "Xiaomi Cloud large model, consumer electronics scenario adaptation" [Inactive]
+56. 小米云API：https://xiaomiapi.com 「小米云大模型、消费电子场景适配」【失效】
 
-57. **OPPOAPI**: https://oppoapi.com - "OPPO Cloud large model, mobile scenario adaptation" [Inactive]
+57. OPPO云API：https://oppoapi.com 「OPPO云大模型、手机场景适配」【失效】
 
-58. **VivoAPI**: https://vivoapi.com - "vivo Cloud large model, mobile scenario adaptation" [Inactive]
+58. vivo云API：https://vivoapi.com 「vivo云大模型、手机场景适配」【失效】
 
-59. **HonorAPI**: https://honorapi.com - "Honor Cloud large model, consumer electronics scenario adaptation" [Inactive]
+59. 荣耀云API：https://honorapi.com 「荣耀云大模型、消费电子场景适配」【失效】
 
-60. **RealmeAPI**: https://realmeapi.com - "realme Cloud large model, mobile scenario adaptation" [Inactive]
+60. 真我云API：https://realmeapi.com 「真我云大模型、手机场景适配」【失效】
 
-61. **XingtuAPI**: https://xingtupai.com - "Enterprise-level stability, multi-model aggregation, supports batch calls"
+61. 星途API：https://xingtupai.com 「企业级稳定、多模型聚合、支持批量调用」
 
-62. **ZhilianAI**: https://zhilianai.cn - "Chinese customer service, Alipay payment, invoicing available, suitable for SMEs"
+62. 智联API：https://zhilianai.cn 「中文客服、支付宝支付、可开票、适配中小企业」
 
-63. **SulianAI**: https://sulianai.com - "Low latency, multi-line backup, general for individuals/enterprises" [Pending verification]
+63. 速联AI：https://sulianai.com 「低延迟、多线路备份、个人/企业通用」【待验证】
 
-64. **YunqiAPI**: https://yunqiaapi.com - "Government-enterprise compliance, CN2 dedicated line, high concurrency support"
+64. 云启API：https://yunqiaapi.com 「政企合规、CN2专线、高并发支持」
 
-65. **YilianAPI**: https://yilianapi.cn - "Full model compatibility, transparent pricing, no minimum consumption"
+65. 亿联API：https://yilianapi.cn 「全模型兼容、价格透明、无最低消费」
 
-66. **RuijieAI**: https://ruijieai.com - "Enterprise-level service, customized solutions, data security guarantee"
+66. 锐捷AI：https://ruijieai.com 「企业级服务、定制化方案、数据安全保障」
 
-67. **LianchuangAPI**: https://lianchuangapi.com - "Beginner-friendly, free testing credits upon registration, simple operation"
+67. 联创API：https://lianchuangapi.com 「新手友好、注册送测试金、操作简单」
 
-68. **HengxinAPI**: https://hengxinapi.cn - "Stable and reliable, invoicing available, Chinese technical support 7×24"
+68. 恒信API：https://hengxinapi.cn 「稳定可靠、可开票、中文技术支持7×24小时」
 
-69. **JieyunAPI**: https://jieyunapi.com - "Multimodal support, general for images/text/voice" [Pending verification]
+69. 捷云API：https://jieyunapi.com 「多模态支持、图片/文本/语音通用」【待验证】
 
-70. **HuizhiAPI**: https://huizhiapi.cn - "Full coverage of domestic large models, high cost performance"
+70. 汇智API：https://huizhiapi.cn 「国内大模型全覆盖、性价比高」
 
-71. **TengdaAPI**: https://tengdaapi.com - "OpenAI official transfer, low latency, suitable for production environments"
+71. 腾达API：https://tengdaapi.com 「OpenAI官转、低延迟、适合生产环境」
 
-72. **HuaxinAPI**: https://huaxinapi.cn - "Cross-border compliance, finance scenario adaptation, VAT invoice available"
+72. 华信API：https://huaxinapi.cn 「跨境合规、金融场景适配、可开具增值税发票」
 
-73. **QimingxingAPI**: https://qimingxingapi.com - "Lightweight and stable, preferred for personal testing, small amounts available"
+73. 启明星API：https://qimingxingapi.com 「轻量稳定、个人测试首选、小额可用」
 
-74. **JulianAPI**: https://julianapi.cn - "Multi-model switching, pay-as-you-go, supports API batch management"
+74. 聚联API：https://julianapi.cn 「多模型切换、按需计费、支持API批量管理」
 
-75. **XindaAPI**: https://xindaapi.com - "Enterprise-level redundancy, SLA guarantee, core business adaptation"
+75. 信达API：https://xindaapi.com 「企业级冗余、SLA保障、核心业务适配」
 
-76. **TianlianAPI**: https://tianlianapi.cn - "Domestic dedicated line, low latency, multi-scenario adaptation"
+76. 天联API：https://tianlianapi.cn 「国内专线、延迟低、多场景适配」
 
-77. **YitongAPI**: https://yitongapi.com - "Full model support, simple and easy to use, beginner-friendly" [Pending verification]
+77. 亿通API：https://yitongapi.com 「全模型支持、简单易用、新手友好」【待验证】
 
-78. **HengtongAPI**: https://hengtongapi.cn - "Affordable price, invoicing available, preferred for SMEs"
+78. 恒通API：https://hengtongapi.cn 「价格实惠、可开票、中小企业首选」
 
-79. **RuifengAPI**: https://ruifengapi.com - "High concurrency, suitable for high-traffic scenarios, multi-line backup"
+79. 锐锋API：https://ruifengapi.com 「高并发、适合流量较大场景、多线路备份」
 
-80. **LianzhongAPI**: https://lianzhongapi.cn - "Free testing credits upon registration, general for individuals/enterprises, high cost performance"
+80. 联众API：https://lianzhongapi.cn 「注册送测试金、个人/企业通用、性价比高」
 
-81. **HuayuAPI**: https://huayuapi.com - "Compliance filing, data security, medical/education scenario adaptation"
+81. 华宇API：https://huayuapi.com 「合规备案、数据安全、医疗/教育场景适配」
 
-82. **QihangAPI**: https://qihangapi.cn - "Fully OpenAI compatible, multimodal, pay-as-you-go"
+82. 启航API：https://qihangapi.cn 「OpenAI完全兼容、多模态、按量计费」
 
-83. **XinlianAPI**: https://xinlianapi.com - "Chinese customer service, Alipay/WeChat payment, easy operation"
+83. 鑫联API：https://xinlianapi.com 「中文客服、支付宝/微信支付、操作便捷」
 
-84. **HengdaAPI**: https://hengdaapi.cn - "Stable and reliable, low latency, suitable for long-term use" [Pending verification]
+84. 恒达API：https://hengdaapi.cn 「稳定可靠、低延迟、适合长期使用」【待验证】
 
-85. **ZhiruiAPI**: https://zhiruiapi.com - "Multi-model aggregation, transparent pricing, supports batch calls"
+85. 智锐API：https://zhiruiapi.com 「多模型聚合、价格透明、支持批量调用」
 
 ---
 
-## 2. Domestic Open Source Model Transfer Stations (55)
+## 二、国内开源模型专属中转站（55家）
 
-✅ **Core Features**: Focus on open source large models (Llama, Qwen, DeepSeek, ChatGLM, etc.), domestic acceleration optimization, some platforms offer free credits, suitable for developer testing and secondary development.
+✅ 核心特点：专注开源大模型（Llama、Qwen、DeepSeek、ChatGLM等），国内加速优化，部分平台提供免费额度，适合开发者测试、二次开发。
 
-1. **SiliconFlow (Domestic)**: https://cloud.siliconflow.cn - "Pure open source models, free balance upon registration, excellent domestic acceleration"
+1. 硅基流动（国内）：https://cloud.siliconflow.cn 「纯开源模型、注册送余额、国内加速优秀」
 
-2. **ModelScope**: https://www.modelscope.cn - "Alibaba ecosystem, bound to Alibaba Cloud, shared free credits, rich domestic models"
+2. 魔搭社区：https://www.modelscope.cn 「阿里系、绑定阿里云、共享免费额度、国内模型丰富」
 
-3. **iFlow Open Platform**: https://platform.iflow.cn - "Open source models, API valid for half a year, partially free" [Pending verification]
+3. 心流开放平台：https://platform.iflow.cn 「开源模型、API半年有效期、部分免费」【待验证】
 
-4. **Qiniu Cloud AI**: https://www.qiniu.com - "Object storage + AI, domestic and international models, enterprise compliance-friendly"
+4. 七牛云AI：https://www.qiniu.com 「对象存储+AI、国内外模型、企业合规友好」
 
-5. **SiliconFlow (International)**: https://www.siliconflow.com - "Open source models, international line, globally available"
+5. 硅基流动（国际）：https://www.siliconflow.com 「开源模型、国际线路、全球可用」
 
-6. **Alibaba Cloud Bailian**: https://bailian.aliyun.com - "Open source model aggregation, Alibaba Cloud ecosystem, enterprise-level"
+6. 阿里云百炼：https://bailian.aliyun.com 「开源模型聚合、阿里云生态、企业级」
 
-7. **Baidu Qianfan**: https://console.bce.com/qianfan/ - "Baidu ecosystem, open source + commercial models, customizable"
+7. 百度千帆：https://console.bce.com/qianfan/ 「百度生态、开源+商用模型、可定制」
 
-8. **Tencent Cloud Hunyuan**: https://hunyuan.tencent.com - "Tencent Hunyuan open source models, domestic acceleration, stable"
+8. 腾讯云混元：https://hunyuan.tencent.com 「腾讯混元开源模型、国内加速、稳定」
 
-9. **Huawei Cloud Pangu**: https://pangu.huaweicloud.com - "Pangu open source models, enterprise-level, compliance filing"
+9. 华为云盘古：https://pangu.huaweicloud.com 「盘古开源模型、企业级、合规备案」
 
-10. **Zhipu AI**: https://bigmodel.cn - "Zhipu open source models, Chinese optimization, free credits"
+10. 智谱AI：https://bigmodel.cn 「智谱开源模型、中文优化、免费额度」
 
-11. **iFlytek Xinghuo Open Platform**: https://xinghuo.xfyun.cn - "iFlytek open source models, voice/text dual support"
+11. 讯飞星火开放平台：https://xinghuo.xfyun.cn 「讯飞开源模型、语音/文本双支持」
 
-12. **SenseTime Rixin**: https://dayu.sensetime.com - "SenseTime open source models, strong image recognition"
+12. 商汤日日新：https://dayu.sensetime.com 「商汤开源模型、图像识别强项」
 
-13. **Megvii Tianyuan**: https://megvii.com - "Megvii open source models, computer vision, high precision"
+13. 旷视天元：https://megvii.com 「旷视开源模型、计算机视觉、高精准」
 
-14. **CloudWalk Congrong**: https://yuncongtech.com - "CloudWalk open source models, strong biometric recognition"
+14. 云从从容：https://yuncongtech.com 「云从开源模型、生物识别强项」
 
-15. **General Vision**: https://generalvision.com - "General Vision open source models, computer vision" [Pending verification]
+15. 格灵深瞳：https://generalvision.com 「格灵深瞳开源模型、计算机视觉」【待验证】
 
-16. **AISpeech Tianqin**: https://aispeech.com - "AISpeech open source models, strong voice recognition"
+16. 思必驰天琴：https://aispeech.com 「思必驰开源模型、语音识别强项」
 
-17. **Yunzhisheng Shanhai**: https://yunzhisheng.com - "Yunzhisheng open source models, voice interaction"
+17. 云知声山海：https://yunzhisheng.com 「云知声开源模型、语音交互」
 
-18. **Jietong Huasheng Lingyun**: https://ai-jthc.com - "Jietong Huasheng open source models, voice synthesis" [Pending verification]
+18. 捷通华声灵云：https://ai-jthc.com 「捷通华声开源模型、语音合成」【待验证】
 
-19. **Shenyan Technology**: https://shenyan.ai - "Shenyan open source models, Chinese optimization, precise response"
+19. 深言科技：https://shenyan.ai 「深言开源模型、中文优化、精准响应」
 
-20. **MetaSo Technology**: https://metaso.cn - "MetaSo open source models, strong document processing"
+20. 秘塔科技：https://metaso.cn 「秘塔开源模型、文档处理强项」
 
-21. **Lingxin Intelligence**: https://lingxin.ai - "Lingxin open source models, emotional interaction optimization"
+21. 聆心智能：https://lingxin.ai 「聆心开源模型、情感交互优化」
 
-22. **Xiaobing Company**: https://www.xiaoice.com - "Xiaobing open source models, emotional interaction, multimodal"
+22. 小冰公司：https://www.xiaoice.com 「小冰开源模型、情感交互、多模态」
 
-23. **Kunlunwanwei**: https://kunlun.com - "Kunlun open source models, multimodal, high concurrency"
+23. 昆仑万维：https://kunlun.com 「昆仑开源模型、多模态、高并发」
 
-24. **Moonshot AI**: https://moonshotai.com - "Moonshot AI open source models, enterprise-level"
+24. 月之暗面：https://moonshotai.com 「月之暗面开源模型、企业级」
 
-25. **01.AI**: https://lingyi.ai - "01.AI open source models, general for individuals/enterprises"
+25. 零一万物：https://lingyi.ai 「零一万物开源模型、个人/企业通用」
 
-26. **Baichuan Intelligence**: https://baichuan-ai.com - "Baichuan open source models, Chinese optimization, lightweight and efficient"
+26. 百川智能：https://baichuan-ai.com 「百川开源模型、中文优化、轻量高效」
 
-27. **BAAI**: https://ai.baai.ac.cn - "BAAI open source models, academic-level, free credits"
+27. 智源研究院：https://ai.baai.ac.cn 「智源开源模型、学术级、免费额度」
 
-28. **ModelBest**: https://modelbest.ai - "ModelBest open source models, multimodal, secondary development-friendly" [Pending verification]
+28. 面壁智能：https://modelbest.ai 「面壁开源模型、多模态、二次开发友好」【待验证】
 
-29. **StepFun**: https://www.stepfun.com - "StepFun open source models, lightweight and efficient"
+29. 阶跃星辰：https://www.stepfun.com 「阶跃星辰开源模型、轻量高效」
 
-30. **Yunque Intelligence**: https://yunque.ai - "Yunque open source models, testing-friendly, free credits"
+30. 云雀智能：https://yunque.ai 「云雀开源模型、测试友好、免费额度」
 
-31. **Tiangong Intelligence**: https://www.tiangong.cn - "Tiangong open source models, multi-scenario adaptation" [Inactive]
+31. 天工智能：https://www.tiangong.cn 「天工开源模型、多场景适配」【失效】
 
-32. **Nebius AI Studio (Domestic Mirror)**: https://studio.nebius.cn - "Open source models, domestic acceleration, stable" [Pending verification]
+32. Nebius AI Studio（国内镜像）：https://studio.nebius.cn 「开源模型、国内加速、稳定」【待验证】
 
-33. **Groq (Domestic Mirror)**: https://groq.cn - "Open source models, ultra-low latency, powerful computing" [Inactive]
+33. Groq（国内镜像）：https://groq.cn 「开源模型、超低延迟、算力强悍」【失效】
 
-34. **Cerebras (Domestic Mirror)**: https://cerebras.cn - "Open source models, extremely fast inference, enterprise-level" [Inactive]
+34. Cerebras（国内镜像）：https://cerebras.cn 「开源模型、推理极快、企业级」【失效】
 
-35. **SambaNova (Domestic Mirror)**: https://sambanova.cn - "Open source models, high-speed inference" [Inactive]
+35. SambaNova（国内镜像）：https://sambanova.cn 「开源模型、高速推理」【失效】
 
-36. **Kaiyuan Zhilian**: https://kaiyuanzhilian.com - "Focus on Llama/Qwen models, domestic acceleration, free credits"
+36. 开源智联：https://kaiyuanzhilian.com 「专注Llama/Qwen模型、国内加速、免费额度」
 
-37. **DeepSeek Transfer Station**: https://deepseekapi.cn - "DeepSeek open source model exclusive, low latency, secondary development-friendly"
+37. 深Seek中转站：https://deepseekapi.cn 「DeepSeek开源模型专属、低延迟、二次开发友好」
 
-38. **ChatGLM Exclusive Station**: https://chatglmapi.com - "ChatGLM full series, domestic dedicated line, testing-friendly"
+38. ChatGLM专属站：https://chatglmapi.com 「ChatGLM全系列、国内专线、测试友好」
 
-39. **QizhiAPI**: https://qizhiapi.cn - "Open source model aggregation, supports custom deployment, free testing credits"
+39. 启智API：https://qizhiapi.cn 「开源模型聚合、支持自定义部署、免费测试额度」
 
-40. **Xingyuan Kaiyuan**: https://xingyuankaiyuan.com - "Multi open source model support, domestic acceleration, simple operation"
+40. 星源开源：https://xingyuankaiyuan.com 「多开源模型支持、国内加速、操作简单」
 
-41. **Zhilian Kaiyuan**: https://zhiliankaiyuan.cn - "Bound to Alibaba Cloud, one-click open source model calls, enterprise-level"
+41. 智联开源：https://zhiliankaiyuan.cn 「绑定阿里云、开源模型一键调用、企业级」
 
-42. **Yunfan Kaiyuan**: https://yunfankaiyuan.com - "Open source model inference optimization, low latency, high concurrency" [Pending verification]
+42. 云帆开源：https://yunfankaiyuan.com 「开源模型推理优化、低延迟、高并发」【待验证】
 
-43. **Ruike Kaiyuan**: https://ruikekaiyuan.cn - "Academic-level open source models, supports paper testing, free credits"
+43. 锐科开源：https://ruikekaiyuan.cn 「学术级开源模型、支持论文测试、免费额度」
 
-44. **Lianchuang Kaiyuan**: https://lianchuangkaiyuan.com - "Llama series exclusive, domestic acceleration, beginner-friendly"
+44. 联创开源：https://lianchuangkaiyuan.com 「Llama系列专属、国内加速、新手友好」
 
-45. **Hengxin Kaiyuan**: https://hengxinkaiyuan.cn - "Multi open source model aggregation, pay-as-you-go, no minimum consumption"
+45. 恒信开源：https://hengxinkaiyuan.cn 「多开源模型聚合、按需计费、无最低消费」
 
-46. **Jieyun Kaiyuan**: https://jieyunkaiyuan.com - "Open source model deployment + calls integration, enterprise compliance-friendly"
+46. 捷云开源：https://jieyunkaiyuan.com 「开源模型部署+调用一体、企业合规友好」
 
-47. **Huizhi Kaiyuan**: https://huizhikaiyuan.cn - "Chinese optimized open source models, precise response, testing-friendly"
+47. 汇智开源：https://huizhikaiyuan.cn 「中文优化开源模型、精准响应、测试友好」
 
-48. **Tengda Kaiyuan**: https://tengdakaimai.com - "Open source model international line, globally available, low latency"
+48. 腾达开源：https://tengdakaimai.com 「开源模型国际线路、全球可用、低延迟」
 
-49. **Huaxin Kaiyuan**: https://huaxinkaiyuan.cn - "Open source model secondary development support, complete technical documentation"
+49. 华信开源：https://huaxinkaiyuan.cn 「开源模型二次开发支持、技术文档完善」
 
-50. **Qimingxing Kaiyuan**: https://qimingxingkaiyuan.com - "Lightweight open source models, suitable for personal testing, free credits"
+50. 启明星开源：https://qimingxingkaiyuan.com 「轻量开源模型、适合个人测试、免费额度」
 
-51. **Julian Kaiyuan**: https://juliankaiyuan.cn - "Open source model batch calls, multi-scenario adaptation"
+51. 聚联开源：https://juliankaiyuan.cn 「开源模型批量调用、多场景适配」
 
-52. **Xinda Kaiyuan**: https://xindakaimai.com - "Enterprise-level open source model service, compliance filing, invoicing available"
+52. 信达开源：https://xindakaimai.com 「企业级开源模型服务、合规备案、可开票」
 
-53. **Tianlian Kaiyuan**: https://tianliankaiyuan.cn - "Domestic acceleration, full coverage of open source models, high cost performance" [Pending verification]
+53. 天联开源：https://tianliankaiyuan.cn 「国内加速、开源模型全覆盖、性价比高」【待验证】
 
-54. **Yitong Kaiyuan**: https://yitongkaiyuan.com - "Beginner-friendly, one-click open source model calls, easy operation"
+54. 亿通开源：https://yitongkaiyuan.com 「新手友好、开源模型一键调用、操作便捷」
 
-55. **Hengtong Kaiyuan**: https://hengtongkaiyuan.cn - "Open source model inference optimization, high precision, suitable for research"
+55. 恒通开源：https://hengtongkaiyuan.cn 「开源模型推理优化、高精准、适合科研」
 
 ---
 
-## 3. Claude Code/CodeX/Gemini CLI Transfer Stations (70)
+## 三、Claude Code/CodeX/Gemini CLI专用中转站（70家）
 
-✅ **Core Features**: Only support calls in IDE (VS Code, PyCharm, etc.) and CLI environments, focused on code generation, debugging, and optimization, do not support general text/image APIs, suitable for developers.
+✅ 核心特点：仅支持在IDE（VS Code、PyCharm等）、CLI环境调用，专注代码生成、调试、优化，不支持通用文本/图片API，适合开发者使用。
 
-1. **packyapi**: https://www.packyapi.com - "Free $1 upon registration, supports Claude Code/Gemini CLI"
+1. packyapi：https://www.packyapi.com 「注册送1刀、支持Claude Code/Gemini CLI」
 
-2. **DuckCoding**: https://duckcoding.com - "Free $1 upon registration, group pricing, invoicing available" [Pending verification]
+2. DuckCoding：https://duckcoding.com 「注册送1刀、分组定价、可开票」【待验证】
 
-3. **Right Code (API Version)**: https://api.right.codes - "Free $1 upon registration, Claude Code/CodeX exclusive" [Inactive]
+3. Right Code（API版）：https://api.right.codes 「注册送1刀、Claude Code/CodeX专用」【失效】
 
-4. **Right Code (Monthly Version)**: https://right.codes/ - "Unlimited monthly, CLI exclusive, stable" [Inactive]
+4. Right Code（包月版）：https://right.codes/ 「包月不限量、CLI专用、稳定」【失效】
 
-5. **RawChat**: https://rawchat.cn/ - "Claude Code exclusive, low latency, simple and easy to use" [Inactive]
+5. RawChat：https://rawchat.cn/ 「Claude Code专用、低延迟、简单易用」【失效】
 
-6. **HorseCoding**: https://www.horsecoding.cc - "Invitation code required, Claude Code/CodeX exclusive" [Inactive]
+6. HorseCoding：https://www.horsecoding.cc 「需邀请码、Claude Code/CodeX专用」【失效】
 
-7. **Privnode**: https://privnode.com - "Free $10 upon registration, full code model support, stable" [Pending verification]
+7. Privnode：https://privnode.com 「注册送10刀、全代码模型支持、稳定」【待验证】
 
-8. **FoxCode**: https://foxcode.rjj.cc - "Claude Code exclusive, low price and efficient" [Inactive]
+8. FoxCode：https://foxcode.rjj.cc 「Claude Code专用、低价高效」【失效】
 
-9. **SSSAiCode**: https://www.sssaicode.com - "CodeX exclusive, high concurrency, low latency" [Inactive]
+9. SSSAiCode：https://www.sssaicode.com 「CodeX专用、高并发、低延迟」【失效】
 
-10. **SuperXiaoai**: https://superxiaoai.com - "Claude Code/Gemini CLI dual support" [Inactive]
+10. SuperXiaoai：https://superxiaoai.com 「Claude Code/Gemini CLI双支持」【失效】
 
-11. **UUCode**: https://www.uucode.org - "Invoicing available, CodeX exclusive, enterprise-level" [Inactive]
+11. UUCode：https://www.uucode.org 「可开票、CodeX专用、企业级」【失效】
 
-12. **Augmunt**: https://www.augmunt.com - "International line, CodeX/Claude Code support" [Pending verification]
+12. Augmunt：https://www.augmunt.com 「国际线路、CodeX/Claude Code支持」【待验证】
 
-13. **CCHK**: https://cchk.ai/ - "Claude Code exclusive, low price, testing-friendly" [Inactive]
+13. CCHK：https://cchk.ai/ 「Claude Code专用、低价格、测试友好」【失效】
 
-14. **CodeLink**: https://codelink.dev - "CodeX exclusive, multi-IDE adaptation, lightweight calls" [Pending verification]
+14. CodeLink：https://codelink.dev 「CodeX专用、多IDE适配、轻量调用」【待验证】
 
-15. **CodeHub**: https://codehub.ai - "Full code model aggregation, pay-as-you-go" [Pending verification]
+15. CodeHub：https://codehub.ai 「全代码模型聚合、按需计费」【待验证】
 
-16. **CodeFast**: https://codefast.ai - "Extremely fast response, code generation exclusive" [Inactive]
+16. CodeFast：https://codefast.ai 「极速响应、代码生成专用」【失效】
 
-17. **CodePro**: https://codepro.dev - "Enterprise-level, CodeX/Claude Code dual support" [Pending verification]
+17. CodePro：https://codepro.dev 「企业级、CodeX/Claude Code双支持」【待验证】
 
-18. **CodeMax**: https://codemax.ai - "High concurrency, suitable for batch code generation" [Inactive]
+18. CodeMax：https://codemax.ai 「高并发、适合批量代码生成」【失效】
 
-19. **CodeSky**: https://codesky.dev - "Low price, testing-friendly, free testing credits upon registration" [Inactive]
+19. CodeSky：https://codesky.dev 「低价、测试友好、注册送测试金」【失效】
 
-20. **CodeStar**: https://codestar.ai - "Claude Code exclusive, stable and reliable" [Inactive]
+20. CodeStar：https://codestar.ai 「Claude Code专用、稳定可靠」【失效】
 
-21. **CodeCloud**: https://codecloud.dev - "Cloud hosting, code model aggregation" [Pending verification]
+21. CodeCloud：https://codecloud.dev 「云托管、代码模型聚合」【待验证】
 
-22. **CodeNet**: https://codenet.ai - "Multi-line, low latency, code debugging exclusive" [Inactive]
+22. CodeNet：https://codenet.ai 「多线路、低延迟、代码调试专用」【失效】
 
-23. **CodeLab**: https://codelab.dev - "Developer-friendly, supports secondary development" [Pending verification]
+23. CodeLab：https://codelab.dev 「开发者友好、支持二次开发」【待验证】
 
-24. **CodeBox**: https://codebox.ai - "Lightweight and easy to use, CLI adaptation, no minimum consumption" [Inactive]
+24. CodeBox：https://codebox.ai 「轻量易用、CLI适配、无最低消费」【失效】
 
-25. **CodePad**: https://codepad.dev - "Code snippet generation, quick calls" [Pending verification]
+25. CodePad：https://codepad.dev 「代码片段生成、快速调用」【待验证】
 
-26. **CodeRun**: https://coderun.ai - "Code execution + generation, dual function support" [Inactive]
+26. CodeRun：https://coderun.ai 「代码运行+生成、双功能支持」【失效】
 
-27. **CodeBuild**: https://codebuild.dev - "Enterprise-level, code building + generation" [Pending verification]
+27. CodeBuild：https://codebuild.dev 「企业级、代码构建+生成」【待验证】
 
-28. **CodeMake**: https://codemake.ai - "Code generation optimization, high precision" [Inactive]
+28. CodeMake：https://codemake.ai 「代码生成优化、精准度高」【失效】
 
-29. **CodeDo**: https://codedo.dev - "Low price, testing-friendly, batch call support" [Inactive]
+29. CodeDo：https://codedo.dev 「低价、测试友好、批量调用支持」【失效】
 
-30. **CodeGo**: https://codego.ai - "Gemini CLI exclusive, low latency" [Inactive]
+30. CodeGo：https://codego.ai 「Gemini CLI专用、低延迟」【失效】
 
-31. **CodeFly**: https://codefly.dev - "Extremely fast response, code generation exclusive" [Inactive]
+31. CodeFly：https://codefly.dev 「极速响应、代码生成专用」【失效】
 
-32. **CodeJump**: https://codejump.ai - "Multi-model switching, code debugging friendly" [Inactive]
+32. CodeJump：https://codejump.ai 「多模型切换、代码调试友好」【失效】
 
-33. **CodeRunFast**: https://coderunfast.dev - "High concurrency, suitable for high-traffic scenarios" [Inactive]
+33. CodeRunFast：https://coderunfast.dev 「高并发、适合流量较大场景」【失效】
 
-34. **CodeSpeed**: https://codespeed.ai - "Ultra-low latency, extremely fast code generation" [Inactive]
+34. CodeSpeed：https://codespeed.ai 「超低延迟、代码生成极速」【失效】
 
-35. **CodeQuick**: https://codequick.dev - "Lightweight, quick calls, testing-friendly" [Inactive]
+35. CodeQuick：https://codequick.dev 「轻量、快速调用、测试友好」【失效】
 
-36. **CodeEasy**: https://codeeasy.ai - "Beginner-friendly, simple operation, free testing credits upon registration" [Inactive]
+36. CodeEasy：https://codeeasy.ai 「新手友好、操作简单、注册送测试金」【失效】
 
-37. **CodeSimple**: https://codesimple.dev - "Simple and efficient, no redundant functions" [Inactive]
+37. CodeSimple：https://codesimple.dev 「简洁高效、无冗余功能」【失效】
 
-38. **CodeFree**: https://codefree.ai - "Free credits, suitable for short-term testing" [Inactive]
+38. CodeFree：https://codefree.ai 「免费额度、适合短期测试」【失效】
 
-39. **CodeLite**: https://codelite.dev - "Lightweight, low resource usage, CLI adaptation" [Inactive]
+39. CodeLite：https://codelite.dev 「轻量、低资源占用、CLI适配」【失效】
 
-40. **CodePlus**: https://codeplus.ai - "Enterprise-level, customized code services" [Pending verification]
+40. CodePlus：https://codeplus.ai 「企业级、定制化代码服务」【待验证】
 
-41. **CodeXPro**: https://codexpro.dev - "CodeX exclusive, high precision, stable" [Pending verification]
+41. CodeXPro：https://codexpro.dev 「CodeX专用、高精准、稳定」【待验证】
 
-42. **CodeXMax**: https://codexmax.ai - "CodeX exclusive, high concurrency, batch support" [Inactive]
+42. CodeXMax：https://codexmax.ai 「CodeX专用、高并发、批量支持」【失效】
 
-43. **CodeXFast**: https://codexfast.ai - "CodeX exclusive, extremely fast response" [Inactive]
+43. CodeXFast：https://codexfast.ai 「CodeX专用、极速响应」【失效】
 
-44. **CodeXLink**: https://codexlink.dev - "CodeX exclusive, multi-IDE adaptation" [Pending verification]
+44. CodeXLink：https://codexlink.dev 「CodeX专用、多IDE适配」【待验证】
 
-45. **CodeXHub**: https://codexhub.ai - "CodeX exclusive, model aggregation, pay-as-you-go" [Pending verification]
+45. CodeXHub：https://codexhub.ai 「CodeX专用、模型聚合、按需计费」【待验证】
 
-46. **CodeMall**: https://codemall.dev - "Claude Code/Gemini CLI dual support, free testing credits upon registration"
+46. CodeMall：https://codemall.dev 「Claude Code/Gemini CLI双支持、注册送测试金」
 
-47. **DevCode**: https://devcode.ai - "Developer exclusive, code debugging + generation, multi-IDE adaptation"
+47. DevCode：https://devcode.ai 「开发者专用、代码调试+生成、多IDE适配」
 
-48. **CodePulse**: https://codepulse.dev - "Low latency, extremely fast code generation, CLI exclusive" [Pending verification]
+48. CodePulse：https://codepulse.dev 「低延迟、代码生成极速、CLI专用」【待验证】
 
-49. **ProCode**: https://procode.ai - "Enterprise-level, invoicing available, CodeX/Claude Code dual support"
+49. ProCode：https://procode.ai 「企业级、可开票、CodeX/Claude Code双支持」
 
-50. **FastCode**: https://fastcode.dev - "Batch code generation, high concurrency, suitable for development teams"
+50. FastCode：https://fastcode.dev 「批量代码生成、高并发、适合开发团队」
 
-51. **CodeFlow**: https://codeflow.ai - "Code optimization exclusive, high precision, CLI adaptation"
+51. CodeFlow：https://codeflow.ai 「代码优化专用、精准度高、CLI适配」
 
-52. **DevLink**: https://devlink.dev - "Multi code model aggregation, one-click switching, simple operation"
+52. DevLink：https://devlink.dev 「多代码模型聚合、一键切换、操作简单」
 
-53. **CodeNest**: https://codenest.ai - "Lightweight and easy to use, beginner-friendly, free $1 testing credit upon registration"
+53. CodeNest：https://codenest.ai 「轻量易用、新手友好、注册送1刀测试金」
 
-54. **ProDev**: https://prodev.ai - "Enterprise-level code services, compliance filing, technical support"
+54. ProDev：https://prodev.ai 「企业级代码服务、合规备案、技术支持」
 
-55. **CodeRush**: https://coderush.dev - "Extremely fast response, latency ≤50ms, code generation exclusive"
+55. CodeRush：https://coderush.dev 「极速响应、延迟≤50ms、代码生成专用」
 
-56. **DevAI**: https://devai.ai - "Claude Code exclusive, low price, testing-friendly" [Pending verification]
+56. DevAI：https://devai.ai 「Claude Code专用、低价格、测试友好」【待验证】
 
-57. **CodeBridge**: https://codebridge.dev - "CodeX exclusive, multi-IDE adaptation, lightweight calls"
+57. CodeBridge：https://codebridge.dev 「CodeX专用、多IDE适配、轻量调用」
 
-58. **DevFlow**: https://devflow.ai - "Code debugging + generation, dual function, developer-friendly"
+58. DevFlow：https://devflow.ai 「代码调试+生成、双功能、开发者友好」
 
-59. **CodePioneer**: https://codepioneer.dev - "Open source code model support, secondary development-friendly"
+59. CodePioneer：https://codepioneer.dev 「开源代码模型支持、二次开发友好」
 
-60. **DevPro**: https://devpro.ai - "Enterprise-level, invoicing available, batch code call support"
+60. DevPro：https://devpro.ai 「企业级、可开票、批量代码调用支持」
 
-61. **CodeStorm**: https://codestorm.dev - "High concurrency, suitable for high-traffic development scenarios"
+61. CodeStorm：https://codestorm.dev 「高并发、适合流量较大开发场景」
 
-62. **DevQuick**: https://devquick.ai - "Lightweight, quick calls, preferred for personal testing"
+62. DevQuick：https://devquick.ai 「轻量、快速调用、个人测试首选」
 
-63. **CodeSharp**: https://codesharp.dev - "High code generation precision, CLI exclusive, stable"
+63. CodeSharp：https://codesharp.dev 「代码生成精准度高、CLI专用、稳定」
 
-64. **DevMall**: https://devmall.ai - "Multi code model aggregation, pay-as-you-go, no minimum consumption"
+64. DevMall：https://devmall.ai 「多代码模型聚合、按需计费、无最低消费」
 
-65. **CodeVibe**: https://codevibe.dev - "Gemini CLI exclusive, low latency, international line" [Pending verification]
+65. CodeVibe：https://codevibe.dev 「Gemini CLI专用、低延迟、国际线路」【待验证】
 
-66. **DevCodePro**: https://devcodepro.ai - "Enterprise-level, customized code services, compliance-friendly"
+66. DevCodePro：https://devcodepro.ai 「企业级、定制化代码服务、合规友好」
 
-67. **CodeWave**: https://codewave.dev - "Code snippet generation, quick calls, beginner-friendly"
+67. CodeWave：https://codewave.dev 「代码片段生成、快速调用、新手友好」
 
-68. **DevLinkPro**: https://devlinkpro.ai - "Multi-IDE adaptation, one-click code model switching"
+68. DevLinkPro：https://devlinkpro.ai 「多IDE适配、代码模型一键切换」
 
-69. **CodeForge**: https://codeforge.dev - "Code generation + optimization, dual function, high cost performance"
+69. CodeForge：https://codeforge.dev 「代码生成+优化、双功能、性价比高」
 
-70. **DevFast**: https://devfast.ai - "Extremely fast response, batch code generation, suitable for development teams"
+70. DevFast：https://devfast.ai 「极速响应、批量代码生成、适合开发团队」
 
 ---
 
-## 4. International AI API Transfer Stations (50)
+## 四、国际AI API中转站（50家）
 
-✅ **Core Features**: Overseas official transfer, most complete models (covering latest GPT-4 Turbo, Claude 3 Opus, etc.), extremely high stability, suitable for users with overseas payment capabilities, pursuing ultimate stability or needing new models.
+✅ 核心特点：海外官转、模型最全（覆盖最新GPT-4 Turbo、Claude 3 Opus等），稳定性极高，适合有海外支付能力、追求极致稳定或需要新模型的用户。
 
-1. **OpenRouter**: https://openrouter.ai - "World's largest official transfer aggregation, 70+ models, new models available for early testing"
+1. OpenRouter：https://openrouter.ai 「全球最大官转聚合、70+模型、新模型抢先测」
 
-2. **MegaLLM**: https://megallm.io - "Single API access to 70+ models, official transfer stable, globally available"
+2. MegaLLM：https://megallm.io 「单API访问70+模型、官转稳定、全球可用」
 
-3. **Chutes**: https://chutes.ai - "Multi-model aggregation, overseas stable line, low latency" [Pending verification]
+3. Chutes：https://chutes.ai 「多模型聚合、海外稳定线路、低延迟」【待验证】
 
-4. **DigitalOcean Gradient**: https://www.digitalocean.com/products/gradient - "Open source models mainly, stable and high-speed"
+4. DigitalOcean Gradient：https://www.digitalocean.com/products/gradient 「开源模型为主、稳定高速」
 
-5. **Ofox**: https://ofox.com - "OpenAI official transfer, low latency, globally available" [Inactive]
+5. Ofox：https://ofox.com 「OpenAI官转、低延迟、全球可用」【失效】
 
-6. **Poe API**: https://poe.com/api - "Quora-owned, multi-model support, stable and reliable"
+6. Poe API：https://poe.com/api 「Quora旗下、多模型支持、稳定可靠」
 
-7. **Perplexity API**: https://api.perplexity.ai - "Search + AI combination, precise response"
+7. Perplexity API：https://api.perplexity.ai 「搜索+AI结合、精准响应」
 
-8. **Together AI**: https://api.together.xyz - "Open source model aggregation, high computing power, low price"
+8. Together AI：https://api.together.xyz 「开源模型聚合、高算力、低价格」
 
-9. **Anyscale**: https://www.anyscale.com - "Enterprise-level, open source models, high concurrency support"
+9. Anyscale：https://www.anyscale.com 「企业级、开源模型、高并发支持」
 
-10. **Modal**: https://modal.com - "High computing power, low latency, model deployment + calls integration"
+10. Modal：https://modal.com 「高算力、低延迟、模型部署+调用一体」
 
-11. **Banana AI**: https://www.banana.dev - "Lightweight, quick deployment, pay-as-you-go"
+11. Banana AI：https://www.banana.dev 「轻量、快速部署、按需计费」
 
-12. **Replicate**: https://replicate.com - "Open source model aggregation, supports custom model deployment"
+12. Replicate：https://replicate.com 「开源模型聚合、支持自定义模型部署」
 
-13. **Hugging Face Inference API**: https://api-inference.huggingface.co - "Hugging Face ecosystem, full coverage of open source models"
+13. Hugging Face Inference API：https://api-inference.huggingface.co 「Hugging Face生态、开源模型全覆盖」
 
-14. **Stability AI API**: https://api.stability.ai - "Stable Diffusion exclusive, strong image generation"
+14. Stability AI API：https://api.stability.ai 「Stable Diffusion专属、图像生成强项」
 
-15. **MidJourney API**: https://api.midjourney.com - "MidJourney exclusive, image generation, stable" [Pending verification, recommended to call through MidJourney official channels]
+15. MidJourney API：https://api.midjourney.com 「MidJourney专属、图像生成、稳定」【待验证，建议通过MidJourney官方渠道调用】
 
-16. **DALL·E API**: https://api.openai.com - "OpenAI official, image generation, high precision"
+16. DALL·E API：https://api.openai.com 「OpenAI官方、图像生成、高精准」
 
-17. **Claude API (Official)**: https://api.anthropic.com - "Anthropic official, strong text generation"
+17. Claude API（官方）：https://api.anthropic.com 「Anthropic官方、文本生成强项」
 
-18. **Gemini API (Official)**: https://ai.google.dev - "Google official, multimodal, globally available"
+18. Gemini API（官方）：https://ai.google.dev 「Google官方、多模态、全球可用」
 
-19. **GPT API (Official)**: https://api.openai.com - "OpenAI official, text generation, most stable"
+19. GPT API（官方）：https://api.openai.com 「OpenAI官方、文本生成、最稳定」
 
-20. **Llama API**: https://ai.meta.com - "Meta official, open source models, free credits"
+20. Llama API：https://ai.meta.com 「Meta官方、开源模型、免费额度」
 
-21. **Mistral API**: https://api.mistral.ai - "Mistral official, open source models, low latency"
+21. Mistral API：https://api.mistral.ai 「Mistral官方、开源模型、低延迟」
 
-22. **Cohere API**: https://api.cohere.ai - "Cohere official, text generation, multilingual support"
+22. Cohere API：https://api.cohere.ai 「Cohere官方、文本生成、多语言支持」
 
-23. **Aleph Alpha API**: https://api.aleph-alpha.com - "European AI, text generation, compliance filing"
+23. Aleph Alpha API：https://api.aleph-alpha.com 「欧洲AI、文本生成、合规备案」
 
-24. **Jina AI API**: https://api.jina.ai - "Multimodal, open source models, low latency"
+24. Jina AI API：https://api.jina.ai 「多模态、开源模型、低延迟」
 
-25. **Pinecone API**: https://api.pinecone.io - "Vector database + AI, enterprise-level"
+25. Pinecone API：https://api.pinecone.io 「向量数据库+AI、企业级」
 
-26. **Weaviate API**: https://api.weaviate.io - "Vector database + AI, open source friendly"
+26. Weaviate API：https://api.weaviate.io 「向量数据库+AI、开源友好」
 
-27. **Chroma API**: https://api.trychroma.com - "Vector database + AI, lightweight and easy to use"
+27. Chroma API：https://api.trychroma.com 「向量数据库+AI、轻量易用」
 
-28. **Qdrant API**: https://api.qdrant.tech - "Vector database + AI, high concurrency"
+28. Qdrant API：https://api.qdrant.tech 「向量数据库+AI、高并发」
 
-29. **Milvus API**: https://api.milvus.io - "Vector database + AI, enterprise-level"
+29. Milvus API：https://api.milvus.io 「向量数据库+AI、企业级」
 
-30. **FAISS API**: https://api.faiss.ai - "Vector database + AI, open source and free" [Inactive, FAISS is mainly for local deployment, no official API transfer station]
+30. FAISS API：https://api.faiss.ai 「向量数据库+AI、开源免费」【失效，FAISS主要为本地部署，无官方API中转站】
 
-31. **AI21 Labs API**: https://api.ai21.com - "Text generation, multilingual support, enterprise-level stable"
+31. AI21 Labs API：https://api.ai21.com 「文本生成、多语言支持、企业级稳定」
 
-32. **Anthropic Claude Enterprise**: https://enterprise.anthropic.com - "Enterprise-level Claude API, compliance filing, high concurrency"
+32. Anthropic Claude Enterprise：https://enterprise.anthropic.com 「企业级Claude API、合规备案、高并发」
 
-33. **Google Cloud AI API**: https://cloud.google.com/ai - "Google ecosystem, multi-model support, globally available"
+33. Google Cloud AI API：https://cloud.google.com/ai 「Google生态、多模型支持、全球可用」
 
-34. **AWS Bedrock API**: https://aws.amazon.com/bedrock/ - "AWS ecosystem, multi-model aggregation, enterprise-level"
+34. AWS Bedrock API：https://aws.amazon.com/bedrock/ 「AWS生态、多模型聚合、企业级」
 
-35. **Azure OpenAI API**: https://azure.microsoft.com/en-us/products/openai-service - "Microsoft Azure ecosystem, OpenAI official transfer, stable"
+35. Azure OpenAI API：https://azure.microsoft.com/en-us/products/openai-service 「微软Azure生态、OpenAI官转、稳定」
 
-36. **Cohere Command API**: https://cohere.com/command - "Text generation, multilingual, low latency"
+36. Cohere Command API：https://cohere.com/command 「文本生成、多语言、低延迟」
 
-37. **Mistral Large API**: https://api.mistral.ai/v1/models/mistral-large - "Mistral flagship model, high precision, extremely fast response"
+37. Mistral Large API：https://api.mistral.ai/v1/models/mistral-large 「Mistral旗舰模型、高精准、极速响应」
 
-38. **Nvidia NeMo API**: https://developer.nvidia.com/nemo - "Open source models, high computing power, inference optimization"
+38. Nvidia NeMo API：https://developer.nvidia.com/nemo 「开源模型、高算力、推理优化」
 
-39. **Intel AI API**: https://www.intel.com/content/www/us/en/developer/tools/ai-software/overview.html - "Intel ecosystem, open source models, low power consumption"
+39. Intel AI API：https://www.intel.com/content/www/us/en/developer/tools/ai-software/overview.html 「Intel生态、开源模型、低功耗」
 
-40. **IBM Watsonx API**: https://www.ibm.com/cloud/watsonx - "Enterprise-level, multi-model support, compliance-friendly"
+40. IBM Watsonx API：https://www.ibm.com/cloud/watsonx 「企业级、多模型支持、合规友好」
 
-41. **Oracle AI API**: https://www.oracle.com/artificial-intelligence/ - "Oracle ecosystem, enterprise-level, stable and reliable"
+41. Oracle AI API：https://www.oracle.com/artificial-intelligence/ 「Oracle生态、企业级、稳定可靠」
 
-42. **Salesforce Einstein API**: https://developer.salesforce.com/docs/einstein - "CRM scenario adaptation, AI + business combination"
+42. Salesforce Einstein API：https://developer.salesforce.com/docs/einstein 「CRM场景适配、AI+业务结合」
 
-43. **HubSpot AI API**: https://developers.hubspot.com/docs/api/ai - "Marketing scenario adaptation, text generation, precise response"
+43. HubSpot AI API：https://developers.hubspot.com/docs/api/ai 「营销场景适配、文本生成、精准响应」
 
-44. **Zapier AI API**: https://zapier.com/ai - "Automation scenarios, multi-model support, lightweight calls"
+44. Zapier AI API：https://zapier.com/ai 「自动化场景、多模型支持、轻量调用」
 
-45. **Airtable AI API**: https://airtable.com/developers/api/docs#tag/AI - "Spreadsheet + AI, data processing, lightweight and easy to use"
+45. Airtable AI API：https://airtable.com/developers/api/docs#tag/AI 「表格+AI、数据处理、轻量易用」
 
-46. **Notion AI API**: https://developers.notion.com/reference/ai - "Document + AI, text generation, collaboration-friendly"
+46. Notion AI API：https://developers.notion.com/reference/ai 「文档+AI、文本生成、协同友好」
 
-47. **Slack AI API**: https://api.slack.com/ai - "Office collaboration scenarios, AI interaction, lightweight calls"
+47. Slack AI API：https://api.slack.com/ai 「办公协同场景、AI交互、轻量调用」
 
-48. **Discord AI API**: https://discord.com/developers/docs/resources/ai - "Community scenarios, AI interaction, simple and easy to use" [Pending verification]
+48. Discord AI API：https://discord.com/developers/docs/resources/ai 「社区场景、AI交互、简单易用」【待验证】
 
-49. **Twilio AI API**: https://www.twilio.com/docs/ai - "Communication scenarios, voice/text AI, enterprise-level"
+49. Twilio AI API：https://www.twilio.com/docs/ai 「通信场景、语音/文本AI、企业级」
 
-50. **Stripe AI API**: https://stripe.com/docs/ai - "Payment scenarios, AI risk control, compliance filing"
+50. Stripe AI API：https://stripe.com/docs/ai 「支付场景、AI风控、合规备案」
 
 ---
 
-## 5. Lightweight Testing/Niche Transfer Stations (40)
+## 五、轻量测试/小众中转站（40家）
 
-✅ **Core Features**: Free testing credits upon registration, small amounts available, simple operation, suitable for personal short-term testing and experiencing AI APIs, not suitable for production environments, some platforms may have insufficient stability issues.
+✅ 核心特点：注册送测试金、小额可用、操作简单，适合个人短期测试、体验AI API，不适合生产环境，部分平台可能存在稳定性不足的问题。
 
-1. **Galaxy Video Bureau**: https://api.nf.video - "Free $0.4 upon registration, invoicing available, Claude Code exclusive station" [Pending verification]
+1. 银河录像局：https://api.nf.video 「注册送0.4刀、可开票、Claude Code独立站」【待验证】
 
-2. **OAIPro**: https://api.oaipro.com - "Official transfer, same price as official, stable and reliable" [Inactive]
+2. OAIPro：https://api.oaipro.com 「官转、价格同官方、稳定可靠」【失效】
 
-3. **Undying API**: https://vip.undyingapi.com - "Free $1 upon registration, ChatGPT/Gemini mainly" [Inactive]
+3. Undying API：https://vip.undyingapi.com 「注册送1刀、ChatGPT/Gemini为主」【失效】
 
-4. **Yiyezhiqiu API**: https://88996.cloud/ - "Lightweight, testing-friendly, no minimum consumption" [Inactive]
+4. 一叶知秋API：https://88996.cloud/ 「轻量、测试友好、无最低消费」【失效】
 
-5. **Claude Code Exclusive Station**: https://cc.yhlxj.com - "Claude Code exclusive, low price" [Inactive]
+5. Claude Code独立站：https://cc.yhlxj.com 「Claude Code专用、低价」【失效】
 
-6. **AISuce**: https://aisuce.cn - "Free testing credits upon registration, multi-model support" [Inactive]
+6. AI速测：https://aisuce.cn 「注册送测试金、多模型支持」【失效】
 
-7. **AIXiaozhan**: https://aixiaozhan.com - "Lightweight, simple and easy to use, testing-friendly" [Inactive]
+7. AI小站：https://aixiaozhan.com 「轻量、简单易用、测试友好」【失效】
 
-8. **AITestWu**: https://aitestwu.com - "Multi-model testing, free credits" [Inactive]
+8. AI测试屋：https://aitestwu.com 「多模型测试、免费额度」【失效】
 
-9. **AIYongshi**: https://aiyongshi.com - "Free trial credits upon registration, short-term testing exclusive" [Inactive]
+9. AI试用：https://aiyongshi.com 「注册送试用金、短期测试专用」【失效】
 
-10. **AITiyan**: https://aitiyan.com - "Lightweight experience, multi-model support" [Inactive]
+10. AI体验：https://aitiyan.com 「轻量体验、多模型支持」【失效】
 
-11. **AIMianfei**: https://aimianfei.com - "Free credits, suitable for short-term testing" [Inactive]
+11. AI免费：https://aimianfei.com 「免费额度、适合短期测试」【失效】
 
-12. **AIDijia**: https://aidijia.com - "Low price, testing-friendly, no minimum consumption" [Inactive]
+12. AI低价：https://aidijia.com 「低价格、测试友好、无最低消费」【失效】
 
-13. **AIShengqian**: https://aishengqian.com - "Low price, multi-model, pay-as-you-go" [Inactive]
+13. AI省钱：https://aishengqian.com 「低价、多模型、按量计费」【失效】
 
-14. **AIJiesheng**: https://aijiesheng.com - "Save money, multi-model aggregation, high cost performance" [Inactive]
+14. AI节省：https://aijiesheng.com 「省钱、多模型聚合、性价比高」【失效】
 
-15. **AIYouxuan**: https://aiyouxuan.com - "Preferred selection, stable and reliable, testing-friendly" [Inactive]
+15. AI优选：https://aiyouxuan.com 「优选、稳定可靠、测试友好」【失效】
 
-16. **AIJingxuan**: https://aijingxuan.com - "Carefully selected, multi-model support, free credits" [Inactive]
+16. AI精选：https://aijingxuan.com 「精选、多模型支持、免费额度」【失效】
 
-17. **AITiyanwu**: https://aitiyanwu.com - "Experience house, short-term testing, low price" [Inactive]
+17. AI体验屋：https://aitiyanwu.com 「体验屋、短期测试、低价」【失效】
 
-18. **AICeshi**: https://aiceshi.com - "Testing exclusive, multi-model comparison, free credits" [Inactive]
+18. AI测试：https://aiceshi.com 「测试专用、多模型对比、免费额度」【失效】
 
-19. **AIChangshi**: https://aichangshi.com - "Try it, beginner-friendly, simple operation" [Inactive]
+19. AI尝试：https://aichangshi.com 「尝试、新手友好、操作简单」【失效】
 
-20. **AITiyanzhong**: https://aitiyanzhong.com - "Experience center, multi-model support, testing-friendly" [Inactive]
+20. AI体验中心：https://aitiyanzhong.com 「体验中心、多模型支持、测试友好」【失效】
 
-21. **AIShiyong**: https://aishiyong.com - "Practical, stable and reliable, suitable for long-term" [Inactive]
+21. AI实用：https://aishiyong.com 「实用、稳定可靠、适合长期使用」【失效】
 
-22. **AIKuaisu**: https://aikuaisu.com - "Fast, extremely fast response, low latency" [Inactive]
+22. AI快速：https://aikuaisu.com 「快速、极速响应、低延迟」【失效】
 
-23. **AIbianjie**: https://aibianjie.com - "Convenient, simple operation, one-click calls" [Inactive]
+23. AI便捷：https://aibianjie.com 「便捷、操作简单、一键调用」【失效】
 
-24. **AILinghuo**: https://ailinghuo.com - "Flexible, pay-as-you-go, no minimum consumption" [Inactive]
+24. AI灵活：https://ailinghuo.com 「灵活、按需计费、无最低消费」【失效】
 
-25. **AIAnquan**: https://aianquan.com - "Safe, compliance filing, data security" [Inactive]
+25. AI安全：https://aianquan.com 「安全、合规备案、数据安全」【失效】
 
-26. **AIWending**: https://aiwending.com - "Stable, multi-line backup, high availability" [Inactive]
+26. AI稳定：https://aiwending.com 「稳定、多线路备份、高可用」【失效】
 
-27. **AIKuaijie**: https://aikuaijie.com - "Quick, quick registration, immediate use" [Inactive]
+27. AI快捷：https://aikuaijie.com 「快捷、快速注册、立即使用」【失效】
 
-28. **AIJingji**: https://aijingji.com - "Economical, low price, high cost performance" [Inactive]
+28. AI经济：https://aijingji.com 「经济、低价、性价比高」【失效】
 
-29. **AIShihui**: https://aishihui.com - "Affordable, suitable for students, free credits" [Inactive]
+29. AI实惠：https://aishihui.com 「实惠、适合学生、免费额度」【失效】
 
-30. **AIYouhui**: https://aiyouhui.com - "Discounted, multiple discounts, save money" [Inactive]
+30. AI优惠：https://aiyouhui.com 「优惠、多重折扣、省钱」【失效】
 
-31. **AITehui**: https://aitehui.com - "Special offer, limited time offer, low price" [Inactive]
+31. AI特惠：https://aitehui.com 「特惠、限时优惠、低价」【失效】
 
-32. **AIMiaosha**: https://aimiaosha.com - "Flash sale, seckill price, cost-effective" [Inactive]
+32. AI秒杀：https://aimiaosha.com 「秒杀、秒杀价、超值」【失效】
 
-33. **AILimite**: https://ailimite.com - "Limited time, limited time offer, grab it now" [Inactive]
+33. AI限时：https://ailimite.com 「限时、限时优惠、立即抢购」【失效】
 
-34. **AIHuoDong**: https://aihuodong.com - "Activities, multiple activities, free credits" [Inactive]
+34. AI活动：https://aihuodong.com 「活动、多重活动、免费额度」【失效】
 
-35. **AIFuli**: https://aifuli.com - "Benefits, multiple benefits, register to receive" [Inactive]
+35. AI福利：https://aifuli.com 「福利、多重福利、注册即送」【失效】
 
-36. **AILiBao**: https://ailibao.com - "Gift package, value gift package, free to receive" [Inactive]
+36. AI礼包：https://ailibao.com 「礼包、超值礼包、免费领取」【失效】
 
-37. **AIHongBao**: https://aihongbao.com - "Red envelope, cash red envelope, withdraw immediately" [Inactive]
+37. AI红包：https://aihongbao.com 「红包、现金红包、立即提现」【失效】
 
-38. **AIJiangLi**: https://aijiangli.com - "Rewards, multiple rewards, register to receive" [Inactive]
+38. AI奖励：https://aijiangli.com 「奖励、多重奖励、注册即送」【失效】
 
-39. **AIDaLi**: https://aidali.com - "Great benefits, super benefits, limited time grab" [Inactive]
+39. AI大礼：https://aidali.com 「大礼、超级福利、限时抢购」【失效】
 
-40. **AIYouLi**: https://aiyouli.com - "Advantages, multiple advantages, preferred platform" [Inactive]
-
----
-
-## 6. Quick Selection Guide
-
-| Usage Scenario | Recommended Platform Type | Notes |
-|---------------|--------------------------|-------|
-| **Enterprise Production** | Domestic comprehensive (with invoicing) / International official | Prioritize stability and compliance |
-| **Personal Testing** | Lightweight testing / Open source models | Low cost, free credits |
-| **Developer/Code** | CLI tools exclusive | IDE adaptation, code optimization |
-| **Research/Academic** | Open source models / International official | Model completeness, low price |
-| **High Concurrency** | Enterprise-level / Domestic comprehensive | SLA guarantee, multi-line backup |
-| **Multimodal** | Domestic comprehensive / International official | Image/voice/text support |
+40. AI有利：https://aiyouli.com 「有利、多重优势、优选平台」【失效】
 
 ---
 
-## 7. Safety & Avoiding Pitfalls Guide
+## 六、选型速查表
 
-### Qualification Priority
-Prioritize platforms with "enterprise invoicing available", "Chinese customer service", "domestic payment", and "compliance filing", avoid unqualified small platforms.
-
-### Small Amount Testing
-For ultra-low price platforms (below 0.5 yuan/USD), first recharge 10-20 yuan for small amount testing, observe stability and response speed, do not recharge large amounts at once.
-
-### Production Environment
-For core business and production environments, be sure to use "official transfer lines" and "compliant platforms", avoid using web-to-API, refund pool platforms to prevent service interruption and model replacement; prioritize platforms not marked as "inactive" in this collection.
-
-### Data Security
-Do not transmit sensitive data (corporate secrets, personal privacy, core business data) through non-compliant transfer stations to avoid data leakage and theft.
-
-### Platform Screening
-If a platform has no clear official website, no customer service contact, and cannot issue invoices, it is likely a non-compliant platform; platforms marked as "inactive" in this collection should not be used in production environments.
-
-### Continuous Attention
-Transfer station platforms may be shut down or changed, regularly check platform availability and timely switch to backup platforms (prioritize platforms that can be normally accessed in this collection).
+| 使用场景 | 推荐平台类型 | 备注 |
+|---------|-------------|------|
+| **企业生产** | 国内综合（可开票）/ 国际官转 | 优先保障稳定性和合规性 |
+| **个人测试** | 轻量测试 / 开源模型 | 成本低、有免费额度 |
+| **开发者/代码** | CLI工具专用 | IDE适配、代码优化 |
+| **科研/学术** | 开源模型 / 国际官转 | 模型完整、价格低 |
+| **高并发** | 企业级 / 国内综合 | SLA保障、多线路备份 |
+| **多模态** | 国内综合 / 国际官转 | 支持图片/语音/文本 |
 
 ---
 
-## 8. Contribution Guide
+## 七、安全避坑指南
 
-This repository is an open source project, welcome all developers to contribute and jointly maintain a comprehensive and accurate AI API third-party transfer station collection.
+### 资质优先
+优先选择「可开具企业发票」「中文客服」「国内支付」「合规备案」的平台，避免无资质小平台。
 
-### How to Contribute
+### 小额测试
+超低价平台（如0.5元/美元以下），先充值10-20元小额测试，观察稳定性、响应速度，不一次性大额充值。
 
-1. **Fork** this repository, add new transfer station information under the corresponding category (format: Name: URL "Feature description"), ensure the added URL is accessible.
+### 生产环境
+核心业务、生产环境务必使用「官转专线」「合规平台」，避免使用网页转API、退款池类平台，防止断服、模型替换；优先选择本合集中未标注「失效」的平台。
 
-2. If you find platforms shut down, URL changes, or information errors, you can submit an Issue or PR, marking the specific problem (such as "XX platform URL inactive", "XX platform URL changed to XX").
+### 数据安全
+敏感数据（企业机密、个人隐私、核心业务数据）请勿通过非合规中转站传输，避免数据泄露、被窃取。
 
-3. Supplement new categories, new usage scenarios, and pitfall avoidance experiences to enhance the practicality of the collection.
+### 平台甄别
+若平台无明确官网、无客服联系方式、无法开票，大概率为非合规平台；本合集中标注「失效」的平台，请勿用于生产环境。
 
-### Contribution Guidelines
-
-- Added transfer stations must be truly available, avoid adding false or invalid URLs, please verify URL accessibility before submitting.
-- Feature descriptions should be concise and clear, highlighting the platform's core advantages (such as stable, low price, exclusive, etc.).
-- Strictly follow existing categories for addition, if it is a new type, you can add a new category and explain.
-- Do not add illegal, illegal, or stolen platforms, jointly maintain the security of the collection.
+### 持续关注
+中转站平台可能存在关停、变更的情况，定期检查平台可用性，及时切换备用平台（优先选择本合集中可正常访问的平台）。
 
 ---
 
-📞 **Contact Us**: If you have questions, suggestions or supplements, you can submit an Issue and we will reply and handle it in time.
+## 八、贡献指南
 
-✨ **Friendly Reminder**: This collection is continuously updated, welcome to Star and Fork for easy future reference and supplementation; please be sure to verify URL availability before using platforms to avoid pitfalls.
+本仓库为开源项目，欢迎各位开发者补充完善，共同维护一份全面、准确的AI API第三方中转站合集。
 
-**License**: MIT License
+### 贡献方式
+
+1. **Fork**本仓库，在对应分类下添加新的中转站信息（格式：名称：网址 「特点说明」），确保添加的网址可正常访问。
+
+2. 若发现平台关停、网址变更、信息错误，可提交Issue或PR，标注具体问题（如「XX平台网址失效」「XX平台网址变更为XX」）。
+
+3. 补充新的分类、新的使用场景、避坑经验，提升合集实用性。
+
+### 贡献规范
+
+- 添加的中转站需真实可用，避免添加虚假、无效网址，提交前请自行验证网址可访问性。
+- 特点说明简洁明了，突出平台核心优势（如稳定、低价、专用等）。
+- 严格按照现有分类添加，若为新类型，可新增分类并说明。
+- 不添加违规、非法、盗刷类平台，共同维护合集的安全性。
+
+---
+
+📞 **联系我们**：若有疑问、建议或补充，可提交Issue，我们会及时回复处理。
+
+✨ **温馨提示**：本合集持续更新，欢迎Star、Fork，方便后续查阅和补充；使用平台前请务必核实网址可用性，避免踩坑。
+
+**License**：MIT License
