@@ -24,18 +24,18 @@ Last Updated: May 15, 2026
 
 ## Table of Contents
 
-1. [Domestic Comprehensive Transfer Stations](#1-domestic-comprehensive-transfer-stations) - Chinese customer service + Alipay/WeChat + invoicing, suitable for enterprises/individuals
-2. [Domestic Open Source Model Transfer Stations](#2-domestic-open-source-model-transfer-stations) - Focus on Llama/Qwen/DeepSeek and other open source models
-3. [Claude Code/CodeX/Gemini CLI Transfer Stations](#3-claude-codecodexgemini-cli-transfer-stations) - Only for IDE/CLI environment calls
-4. [International AI API Transfer Stations](#4-international-ai-api-transfer-stations) - Overseas official transfer, most complete models, stability priority
-5. [Lightweight Testing/Niche Transfer Stations](#5-lightweight-testingniche-transfer-stations) - Free testing credits, small amounts available, suitable for short-term testing
+1. [Domestic Comprehensive Transfer Stations (48)](#1-domestic-comprehensive-transfer-stations) - Chinese customer service + Alipay/WeChat + invoicing, suitable for enterprises/individuals
+2. [Domestic Open Source Model Transfer Stations (24)](#2-domestic-open-source-model-transfer-stations) - Focus on Llama/Qwen/DeepSeek and other open source models
+3. [Claude Code/CodeX/Gemini CLI Transfer Stations (24)](#3-claude-codecodexgemini-cli-transfer-stations) - Only for IDE/CLI environment calls
+4. [International AI API Transfer Stations (58)](#4-international-ai-api-transfer-stations) - Overseas official transfer, most complete models, stability priority
+5. [Lightweight Testing/Niche Transfer Stations (6)](#5-lightweight-testingniche-transfer-stations) - Free testing credits, small amounts available, suitable for short-term testing
 6. [Quick Selection Guide](#6-quick-selection-guide) - Quickly match the best platform by scenario
 7. [Safety & Avoiding Pitfalls Guide](#7-safety--avoiding-pitfalls-guide) - Must-read for beginners to avoid pitfalls
 8. [Contribution Guide](#8-contribution-guide) - How to supplement new transfer station information
 
 ---
 
-## 1. Domestic Comprehensive Transfer Stations (98)
+## 1. Domestic Comprehensive Transfer Stations (48)
 
 ✅ **Core Features**: Support Chinese customer service, Alipay/WeChat payment, enterprise invoicing, compatible with GPT-4, Claude, Gemini, domestic large models and other full types, moderate stability, suitable for enterprise production and personal development.
 
@@ -189,7 +189,7 @@ Last Updated: May 15, 2026
 
 ---
 
-## 2. Domestic Open Source Model Transfer Stations (55)
+## 2. Domestic Open Source Model Transfer Stations (24)
 
 ✅ **Core Features**: Focus on open source large models (Llama, Qwen, DeepSeek, ChatGLM, etc.), domestic acceleration optimization, some platforms offer free credits, suitable for developer testing and secondary development.
 
@@ -274,7 +274,7 @@ Last Updated: May 15, 2026
 
 ---
 
-## 3. Claude Code/CodeX/Gemini CLI Transfer Stations (75)
+## 3. Claude Code/CodeX/Gemini CLI Transfer Stations (24)
 
 ✅ **Core Features**: Only support calls in IDE (VS Code, PyCharm, etc.) and CLI environments, focused on code generation, debugging, and optimization, do not support general text/image APIs, suitable for developers.
 
@@ -379,7 +379,7 @@ Last Updated: May 15, 2026
 
 ---
 
-## 4. International AI API Transfer Stations (59)
+## 4. International AI API Transfer Stations (58)
 
 ✅ **Core Features**: Overseas official transfer, most complete models (covering latest GPT-4 Turbo, Claude 3 Opus, etc.), extremely high stability, suitable for users with overseas payment capabilities, pursuing ultimate stability or needing new models.
 
@@ -502,7 +502,7 @@ Last Updated: May 15, 2026
 
 ---
 
-## 5. Lightweight Testing/Niche Transfer Stations (45)
+## 5. Lightweight Testing/Niche Transfer Stations (6)
 
 ✅ **Core Features**: Free testing credits upon registration, small amounts available, simple operation, suitable for personal short-term testing and experiencing AI APIs, not suitable for production environments, some platforms may have insufficient stability issues.
 
