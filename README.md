@@ -22,15 +22,15 @@
 
 ## 目录
 
-1. [国内综合全能中转站（23家）](#一国内综合全能中转站) - 中文客服+支付宝/微信+可开票，适配企业/个人
+1. [国内综合全能中转站（29家）](#一国内综合全能中转站) - 中文客服+支付宝/微信+可开票，适配企业/个人
 
 2. [国内开源模型专属中转站（24家）](#二国内开源模型专属中转站) - 专注Llama/Qwen/DeepSeek等开源模型
 
 3. [Claude Code/CodeX/Gemini CLI专用中转站（24家）](#三claudecodecodexgemini-cli专用中转站) - 仅适配IDE/CLI环境调用
 
-4. [国际AI API中转站（57家）](#四国际ai-api中转站) - 海外官转、模型最全、稳定优先
+4. [国际AI API中转站（61家）](#四国际ai-api中转站) - 海外官转、模型最全、稳定优先
 
-5. [轻量测试/小众中转站（5家）](#五轻量测试小众中转站) - 送测试金、小额可用，适合短期测试
+5. [轻量测试/小众中转站（8家）](#五轻量测试小众中转站) - 送测试金、小额可用，适合短期测试
 
 6. [选型速查表](#六选型速查表) - 按场景快速匹配最优平台
 
@@ -40,84 +40,69 @@
 
 ---
 
-## 一、国内综合全能中转站（23家）
+## 一、国内综合全能中转站（29家）
 
 ✅ 核心特点：支持中文客服、支付宝/微信支付、可开具企业发票，兼容GPT-4、Claude、Gemini、国内大模型等全类型，稳定性适中，适配企业生产和个人开发。
 
 ⚠️ 说明：以下标注「失效」的网址经检测无法正常访问，标注「待验证」的网址访问不稳定，建议谨慎使用。
 
-1. 4SAPI（星链引擎）：https://api.4sapi.com 「政企级稳定、CN2专线、低延迟、SLA保障」【待验证】
+1. PoloAPI：https://poloai.top 「均衡稳定、支持Claude Code/CodeX、性价比高」
 
+2. Weelinking：https://www.weelinking.com 「99.9%可用性、多层冗余、0.8元/美元」
 
-2. PoloAPI：https://poloai.top 「均衡稳定、支持Claude Code/CodeX、性价比高」
+3. n1n.ai：https://n1n.ai 「低延迟、新手友好、注册送测试金」
 
-3. Weelinking：https://www.weelinking.com 「99.9%可用性、多层冗余、0.8元/美元」
+4. 灵芽API：https://api.lingyaai.cn 「国内专线、稳定可靠、可开票、2年稳定运营」
 
+5. 简易API中转站：https://jeniya.cn 「国内直连、全模型支持、注册送测试金、新手友好」
 
+6. 星途API：https://xingtupai.com 「企业级稳定、多模型聚合、支持批量调用」
 
+7. OfoxAI：https://ofox.ai 「原生Anthropic格式、81+主流模型、GPT-5.4/Claude/Gemini全支持、OpenClaw原生集成」
 
-4. n1n.ai：https://n1n.ai 「低延迟、新手友好、注册送测试金」
+8. 302.AI：https://302.ai 「500+模型聚合、企业级AI平台、零月费按量付费、国内直连」
 
-5. 灵芽API：https://api.lingyaai.cn 「国内专线、稳定可靠、可开票、2年稳定运营」
+9. 云雾API：https://yunwu.ai 「0.5元/美元、500+大模型、国内直连、200+模型支持」
 
-6. 简易API中转站：https://jeniya.cn 「国内直连、全模型支持、注册送测试金、新手友好」
+10. 神马中转API：https://api.whatai.cc 「650+模型聚合、国内直连、低延迟高并发、免费试用」
 
+11. UIUIAPI聚合平台：https://uiuiapi.com 「300+大模型聚合、3.7元/美元汇率、企业级高并发、可开发票」
 
+12. CloseAI：https://www.closeai-asia.com 「亚洲最大企业级AI中转、100%官转、高可用灾备架构、支持企业发票」
 
+13. TokenMix：https://tokenmix.ai 「多模型聚合、支持支付宝/微信/Stripe、1美元起充、OpenAI完全兼容」
 
+14. B.AI：https://b.ai 「孙宇晨推出、全系列模型、USDT支付、注册送50万积分」
 
+15. 老板AI：https://laozhang.ai 「知名中文Claude中转、官方同价、支付宝/微信支付、注册送$0.5」
 
+16. DMXAPI：https://dmxapi.com 「多模态聚合、企业友好、480+模型、三大原生协议支持」
 
+17. NanoBanana：https://nanobanana.com 「图像/视频生成专用、Gemini 3 Pro Image官方2折、4K超清」
 
+18. API易：https://apiyi.com/ 「轻量极简、官方直连、Claude/GPT全支持、缓存读写低价」
 
+19. PoloAPI（主站）：https://poloapi.com 「均衡稳定、Claude Code/CodeX全支持、官方93折官转」
 
+20. NoneLinear：https://nonelinear.com 「480+模型聚合、99.99% SLA、原生OpenAI/Anthropic/Gemini三协议支持」
 
+21. proaiapi.tech：https://proaiapi.tech 「极致性价比、企业级稳定性、零门槛迁移、多模型支持」
 
+22. 接口AI：https://jiekou.ai 「全模型支持、简单易用、个人/企业通用」
 
-7. 百川API：https://baichuanapi.com 「百川大模型专属、兼容第三方模型」【待验证】
+23. NodAPI：https://nodapi.com 「高速稳定、多模型聚合、企业级低延迟高并发」
 
+24. 云雾AI（备用站）：https://www.yunwuai.cc 「云雾API备用域名、同样0.5元/美元汇率」
 
+25. OAIPro：https://api.oaipro.com 「官转、价格同官方、稳定可靠」
 
+26. 一叶知秋API：https://88996.cloud/ 「轻量、测试友好、无最低消费」
 
+27. 速联AI：https://sulianai.com 「低延迟、多线路备份、个人/企业通用」【待验证】
 
-8. 智谱API：https://zhipuapi.com 「智谱AI专属、开源模型兼容、低价高效」【待验证】
+28. 4SAPI（星链引擎）：https://api.4sapi.com 「政企级稳定、CN2专线、低延迟、SLA保障」【待验证】
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9. 星途API：https://xingtupai.com 「企业级稳定、多模型聚合、支持批量调用」
-
-
-10. 速联AI：https://sulianai.com 「低延迟、多线路备份、个人/企业通用」【待验证】
+29. 百川API：https://baichuanapi.com 「百川大模型专属、兼容第三方模型」【待验证】
 
 
 
@@ -359,7 +344,7 @@
 
 ---
 
-## 四、国际AI API中转站（57家）
+## 四、国际AI API中转站（61家）
 
 ✅ 核心特点：海外官转、模型最全（覆盖最新GPT-4 Turbo、Claude 3 Opus等），稳定性极高，适合有海外支付能力、追求极致稳定或需要新模型的用户。
 
@@ -479,52 +464,21 @@
 
 57. NanoBanana：https://nanobanana.com 「图像生成专用、Gemini 3 Pro Image/4K超清、官方2折」
 
+58. NoneLinear：https://nonelinear.com 「480+模型、99.99% SLA、三大原生协议、企业级稳定性」
+
+59. proaiapi.tech：https://proaiapi.tech 「极致性价比、企业级稳定性、OpenAI兼容」
+
+60. NodAPI：https://nodapi.com 「高速稳定、多模型聚合、企业级低延迟」
+
+61. 云雾API（国际版）：https://yunwu.ai 「0.5元/美元、500+模型、国内直连」
+
 ---
 
-## 五、轻量测试/小众中转站（5家）
+## 五、轻量测试/小众中转站（8家）
 
 ✅ 核心特点：注册送测试金、小额可用、操作简单，适合个人短期测试、体验AI API，不适合生产环境，部分平台可能存在稳定性不足的问题。
 
 1. 银河录像局：https://api.nf.video 「注册送0.4刀、可开票、Claude Code独立站」
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 2. 神马中转API（测试版）：https://api.whatai.cc 「新用户免费试用、650+模型、国内直连」
 
@@ -534,7 +488,11 @@
 
 5. AIHubMix：https://aihubmix.com 「开发者快速接入、多模型聚合、免费测试额度」
 
-6. TokenMix：https://tokenmix.ai 「多模型聚合、支持支付宝/微信/Stripe、1美元起充、OpenAI兼容」
+6. OAIPro：https://api.oaipro.com 「官转、价格同官方、稳定可靠、适合小额测试」
+
+7. 一叶知秋API：https://88996.cloud/ 「轻量、测试友好、无最低消费、适合短期测试」
+
+8. TokenMix：https://tokenmix.ai 「多模型聚合、支持支付宝/微信/Stripe、1美元起充、OpenAI兼容」
 
 ---
 
