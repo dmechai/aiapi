@@ -40,15 +40,15 @@
 
 ---
 
-## 一、国内综合全能中转站（85家）
+## 一、国内综合全能中转站（98家）
 
 ✅ 核心特点：支持中文客服、支付宝/微信支付、可开具企业发票，兼容GPT-4、Claude、Gemini、国内大模型等全类型，稳定性适中，适配企业生产和个人开发。
 
 ⚠️ 说明：以下标注「失效」的网址经检测无法正常访问，标注「待验证」的网址访问不稳定，建议谨慎使用。
 
-1. 4SAPI（星链引擎）：https://api.4sapi.com 「政企级稳定、CN2专线、低延迟、SLA保障」
+1. 4SAPI（星链引擎）：https://api.4sapi.com 「政企级稳定、CN2专线、低延迟、SLA保障」【待验证】
 
-2. 147API：https://147api.com 「OpenAI完全兼容、100+模型、多模态、按量计费」
+2. 147API：https://147api.com 「OpenAI完全兼容、100+模型、多模态、按量计费」【失效】
 
 3. PoloAPI：https://poloai.top 「均衡稳定、支持Claude Code/CodeX、性价比高」
 
@@ -60,11 +60,11 @@
 
 7. proaiapi.tech 「简洁高效、按量计费、支持多模型切换」【失效，无有效网址】
 
-8. n1n.ai 「低延迟、新手友好、注册送测试金」【失效】
+8. n1n.ai：https://n1n.ai 「低延迟、新手友好、注册送测试金」
 
-9. 灵芽API：https://lingyaapi.com 「国内专线、稳定可靠、可开票」【失效】
+9. 灵芽API：https://api.lingyaai.cn 「国内专线、稳定可靠、可开票、2年稳定运营」
 
-10. 简易API中转站：https://cnn-api.github.io/ 「开源免费、适合测试、轻量调用」
+10. 简易API中转站：https://jeniya.cn 「国内直连、全模型支持、注册送测试金、新手友好」
 
 11. AIGC66API：https://aigc66.com 「多模型聚合、价格透明、支持批量调用」【失效】
 
@@ -168,53 +168,79 @@
 
 61. 星途API：https://xingtupai.com 「企业级稳定、多模型聚合、支持批量调用」
 
-62. 智联API：https://zhilianai.cn 「中文客服、支付宝支付、可开票、适配中小企业」
+62. 智联API：https://zhilianai.cn 「中文客服、支付宝支付、可开票、适配中小企业」【失效】
 
 63. 速联AI：https://sulianai.com 「低延迟、多线路备份、个人/企业通用」【待验证】
 
-64. 云启API：https://yunqiaapi.com 「政企合规、CN2专线、高并发支持」
+64. 云启API：https://yunqiaapi.com 「政企合规、CN2专线、高并发支持」【失效】
 
-65. 亿联API：https://yilianapi.cn 「全模型兼容、价格透明、无最低消费」
+65. 亿联API：https://yilianapi.cn 「全模型兼容、价格透明、无最低消费」【失效】
 
-66. 锐捷AI：https://ruijieai.com 「企业级服务、定制化方案、数据安全保障」
+66. 锐捷AI：https://ruijieai.com 「企业级服务、定制化方案、数据安全保障」【失效】
 
-67. 联创API：https://lianchuangapi.com 「新手友好、注册送测试金、操作简单」
+67. 联创API：https://lianchuangapi.com 「新手友好、注册送测试金、操作简单」【失效】
 
-68. 恒信API：https://hengxinapi.cn 「稳定可靠、可开票、中文技术支持7×24小时」
+68. 恒信API：https://hengxinapi.cn 「稳定可靠、可开票、中文技术支持7×24小时」【失效】
 
-69. 捷云API：https://jieyunapi.com 「多模态支持、图片/文本/语音通用」【待验证】
+69. 捷云API：https://jieyunapi.com 「多模态支持、图片/文本/语音通用」【失效】
 
-70. 汇智API：https://huizhiapi.cn 「国内大模型全覆盖、性价比高」
+70. 汇智API：https://huizhiapi.cn 「国内大模型全覆盖、性价比高」【失效】
 
-71. 腾达API：https://tengdaapi.com 「OpenAI官转、低延迟、适合生产环境」
+71. 腾达API：https://tengdaapi.com 「OpenAI官转、低延迟、适合生产环境」【失效】
 
-72. 华信API：https://huaxinapi.cn 「跨境合规、金融场景适配、可开具增值税发票」
+72. 华信API：https://huaxinapi.cn 「跨境合规、金融场景适配、可开具增值税发票」【失效】
 
-73. 启明星API：https://qimingxingapi.com 「轻量稳定、个人测试首选、小额可用」
+73. 启明星API：https://qimingxingapi.com 「轻量稳定、个人测试首选、小额可用」【失效】
 
-74. 聚联API：https://julianapi.cn 「多模型切换、按需计费、支持API批量管理」
+74. 聚联API：https://julianapi.cn 「多模型切换、按需计费、支持API批量管理」【失效】
 
-75. 信达API：https://xindaapi.com 「企业级冗余、SLA保障、核心业务适配」
+75. 信达API：https://xindaapi.com 「企业级冗余、SLA保障、核心业务适配」【失效】
 
-76. 天联API：https://tianlianapi.cn 「国内专线、延迟低、多场景适配」
+76. 天联API：https://tianlianapi.cn 「国内专线、延迟低、多场景适配」【失效】
 
-77. 亿通API：https://yitongapi.com 「全模型支持、简单易用、新手友好」【待验证】
+77. 亿通API：https://yitongapi.com 「全模型支持、简单易用、新手友好」【失效】
 
-78. 恒通API：https://hengtongapi.cn 「价格实惠、可开票、中小企业首选」
+78. 恒通API：https://hengtongapi.cn 「价格实惠、可开票、中小企业首选」【失效】
 
-79. 锐锋API：https://ruifengapi.com 「高并发、适合流量较大场景、多线路备份」
+79. 锐锋API：https://ruifengapi.com 「高并发、适合流量较大场景、多线路备份」【失效】
 
-80. 联众API：https://lianzhongapi.cn 「注册送测试金、个人/企业通用、性价比高」
+80. 联众API：https://lianzhongapi.cn 「注册送测试金、个人/企业通用、性价比高」【失效】
 
-81. 华宇API：https://huayuapi.com 「合规备案、数据安全、医疗/教育场景适配」
+81. 华宇API：https://huayuapi.com 「合规备案、数据安全、医疗/教育场景适配」【失效】
 
-82. 启航API：https://qihangapi.cn 「OpenAI完全兼容、多模态、按量计费」
+82. 启航API：https://qihangapi.cn 「OpenAI完全兼容、多模态、按量计费」【失效】
 
-83. 鑫联API：https://xinlianapi.com 「中文客服、支付宝/微信支付、操作便捷」
+83. 鑫联API：https://xinlianapi.com 「中文客服、支付宝/微信支付、操作便捷」【失效】
 
-84. 恒达API：https://hengdaapi.cn 「稳定可靠、低延迟、适合长期使用」【待验证】
+84. 恒达API：https://hengdaapi.cn 「稳定可靠、低延迟、适合长期使用」【失效】
 
-85. 智锐API：https://zhiruiapi.com 「多模型聚合、价格透明、支持批量调用」
+85. 智锐API：https://zhiruiapi.com 「多模型聚合、价格透明、支持批量调用」【失效】
+
+86. OfoxAI：https://ofox.ai 「原生Anthropic格式、81+主流模型、GPT-5.4/Claude/Gemini全支持、OpenClaw原生集成」
+
+87. 302.AI：https://302.ai 「500+模型聚合、企业级AI平台、零月费按量付费、国内直连」
+
+88. 云雾API：https://yunwu.ai 「0.5元/美元、500+大模型、国内直连、200+模型支持」
+
+89. 神马中转API：https://api.whatai.cc 「650+模型聚合、国内直连、低延迟高并发、免费试用」
+
+90. UIUIAPI聚合平台：https://uiuiapi.com 「300+大模型聚合、3.7元/美元汇率、企业级高并发、可开发票」
+
+91. CloseAI：https://www.closeai-asia.com 「亚洲最大企业级AI中转、100%官转、高可用灾备架构、支持企业发票」
+
+92. TokenMix：https://tokenmix.ai 「多模型聚合、支持支付宝/微信/Stripe、1美元起充、OpenAI完全兼容」
+
+93. B.AI：https://b.ai 「孙宇晨推出、全系列模型、USDT支付、注册送50万积分」
+
+94. 老板AI：https://laozhang.ai 「知名中文Claude中转、官方同价、支付宝/微信支付、注册送$0.5」
+
+95. DMXAPI：https://dmxapi.com 「多模态聚合、企业友好、480+模型、三大原生协议支持」
+
+96. NanoBanana：https://nanobanana.com 「图像/视频生成专用、Gemini 3 Pro Image官方2折、4K超清」
+
+97. API易：https://apiyi.com/ 「轻量极简、官方直连、Claude/GPT全支持、缓存读写低价」
+
+98. PoloAPI（主站）：https://poloapi.com 「均衡稳定、Claude Code/CodeX全支持、官方93折官转」
 
 ---
 
@@ -244,21 +270,21 @@
 
 11. 讯飞星火开放平台：https://xinghuo.xfyun.cn 「讯飞开源模型、语音/文本双支持」
 
-12. 商汤日日新：https://dayu.sensetime.com 「商汤开源模型、图像识别强项」
+12. 商汤日日新：https://dayu.sensetime.com 「商汤开源模型、图像识别强项」【待验证】
 
 13. 旷视天元：https://megvii.com 「旷视开源模型、计算机视觉、高精准」
 
-14. 云从从容：https://yuncongtech.com 「云从开源模型、生物识别强项」
+14. 云从从容：https://yuncongtech.com 「云从开源模型、生物识别强项」【失效】
 
-15. 格灵深瞳：https://generalvision.com 「格灵深瞳开源模型、计算机视觉」【待验证】
+15. 格灵深瞳：https://generalvision.com 「格灵深瞳开源模型、计算机视觉」
 
 16. 思必驰天琴：https://aispeech.com 「思必驰开源模型、语音识别强项」
 
-17. 云知声山海：https://yunzhisheng.com 「云知声开源模型、语音交互」
+17. 云知声山海：https://yunzhisheng.com 「云知声开源模型、语音交互」【失效】
 
-18. 捷通华声灵云：https://ai-jthc.com 「捷通华声开源模型、语音合成」【待验证】
+18. 捷通华声灵云：https://ai-jthc.com 「捷通华声开源模型、语音合成」【失效】
 
-19. 深言科技：https://shenyan.ai 「深言开源模型、中文优化、精准响应」
+19. 深言科技：https://shenyan.ai 「深言开源模型、中文优化、精准响应」【失效】
 
 20. 秘塔科技：https://metaso.cn 「秘塔开源模型、文档处理强项」
 
@@ -270,21 +296,21 @@
 
 24. 月之暗面：https://moonshotai.com 「月之暗面开源模型、企业级」
 
-25. 零一万物：https://lingyi.ai 「零一万物开源模型、个人/企业通用」
+25. 零一万物：https://lingyi.ai 「零一万物开源模型、个人/企业通用」【待验证】
 
-26. 百川智能：https://baichuan-ai.com 「百川开源模型、中文优化、轻量高效」
+26. 百川智能：https://baichuan-ai.com 「百川开源模型、中文优化、轻量高效」【待验证】
 
-27. 智源研究院：https://ai.baai.ac.cn 「智源开源模型、学术级、免费额度」
+27. 智源研究院：https://ai.baai.ac.cn 「智源开源模型、学术级、免费额度」【失效】
 
-28. 面壁智能：https://modelbest.ai 「面壁开源模型、多模态、二次开发友好」【待验证】
+28. 面壁智能：https://modelbest.ai 「面壁开源模型、多模态、二次开发友好」【失效】
 
 29. 阶跃星辰：https://www.stepfun.com 「阶跃星辰开源模型、轻量高效」
 
-30. 云雀智能：https://yunque.ai 「云雀开源模型、测试友好、免费额度」
+30. 云雀智能：https://yunque.ai 「云雀开源模型、测试友好、免费额度」【失效】
 
-31. 天工智能：https://www.tiangong.cn 「天工开源模型、多场景适配」【失效】
+31. 天工智能：https://www.tiangong.cn 「天工开源模型、多场景适配」
 
-32. Nebius AI Studio（国内镜像）：https://studio.nebius.cn 「开源模型、国内加速、稳定」【待验证】
+32. Nebius AI Studio（国内镜像）：https://studio.nebius.cn 「开源模型、国内加速、稳定」【失效】
 
 33. Groq（国内镜像）：https://groq.cn 「开源模型、超低延迟、算力强悍」【失效】
 
@@ -292,55 +318,55 @@
 
 35. SambaNova（国内镜像）：https://sambanova.cn 「开源模型、高速推理」【失效】
 
-36. 开源智联：https://kaiyuanzhilian.com 「专注Llama/Qwen模型、国内加速、免费额度」
+36. 开源智联：https://kaiyuanzhilian.com 「专注Llama/Qwen模型、国内加速、免费额度」【失效】
 
-37. 深Seek中转站：https://deepseekapi.cn 「DeepSeek开源模型专属、低延迟、二次开发友好」
+37. 深Seek中转站：https://deepseekapi.cn 「DeepSeek开源模型专属、低延迟、二次开发友好」【失效】
 
-38. ChatGLM专属站：https://chatglmapi.com 「ChatGLM全系列、国内专线、测试友好」
+38. ChatGLM专属站：https://chatglmapi.com 「ChatGLM全系列、国内专线、测试友好」【失效】
 
-39. 启智API：https://qizhiapi.cn 「开源模型聚合、支持自定义部署、免费测试额度」
+39. 启智API：https://qizhiapi.cn 「开源模型聚合、支持自定义部署、免费测试额度」【失效】
 
-40. 星源开源：https://xingyuankaiyuan.com 「多开源模型支持、国内加速、操作简单」
+40. 星源开源：https://xingyuankaiyuan.com 「多开源模型支持、国内加速、操作简单」【失效】
 
-41. 智联开源：https://zhiliankaiyuan.cn 「绑定阿里云、开源模型一键调用、企业级」
+41. 智联开源：https://zhiliankaiyuan.cn 「绑定阿里云、开源模型一键调用、企业级」【失效】
 
-42. 云帆开源：https://yunfankaiyuan.com 「开源模型推理优化、低延迟、高并发」【待验证】
+42. 云帆开源：https://yunfankaiyuan.com 「开源模型推理优化、低延迟、高并发」【失效】
 
-43. 锐科开源：https://ruikekaiyuan.cn 「学术级开源模型、支持论文测试、免费额度」
+43. 锐科开源：https://ruikekaiyuan.cn 「学术级开源模型、支持论文测试、免费额度」【失效】
 
-44. 联创开源：https://lianchuangkaiyuan.com 「Llama系列专属、国内加速、新手友好」
+44. 联创开源：https://lianchuangkaiyuan.com 「Llama系列专属、国内加速、新手友好」【失效】
 
-45. 恒信开源：https://hengxinkaiyuan.cn 「多开源模型聚合、按需计费、无最低消费」
+45. 恒信开源：https://hengxinkaiyuan.cn 「多开源模型聚合、按需计费、无最低消费」【失效】
 
-46. 捷云开源：https://jieyunkaiyuan.com 「开源模型部署+调用一体、企业合规友好」
+46. 捷云开源：https://jieyunkaiyuan.com 「开源模型部署+调用一体、企业合规友好」【失效】
 
-47. 汇智开源：https://huizhikaiyuan.cn 「中文优化开源模型、精准响应、测试友好」
+47. 汇智开源：https://huizhikaiyuan.cn 「中文优化开源模型、精准响应、测试友好」【失效】
 
-48. 腾达开源：https://tengdakaimai.com 「开源模型国际线路、全球可用、低延迟」
+48. 腾达开源：https://tengdakaimai.com 「开源模型国际线路、全球可用、低延迟」【失效】
 
-49. 华信开源：https://huaxinkaiyuan.cn 「开源模型二次开发支持、技术文档完善」
+49. 华信开源：https://huaxinkaiyuan.cn 「开源模型二次开发支持、技术文档完善」【失效】
 
-50. 启明星开源：https://qimingxingkaiyuan.com 「轻量开源模型、适合个人测试、免费额度」
+50. 启明星开源：https://qimingxingkaiyuan.com 「轻量开源模型、适合个人测试、免费额度」【失效】
 
-51. 聚联开源：https://juliankaiyuan.cn 「开源模型批量调用、多场景适配」
+51. 聚联开源：https://juliankaiyuan.cn 「开源模型批量调用、多场景适配」【失效】
 
-52. 信达开源：https://xindakaimai.com 「企业级开源模型服务、合规备案、可开票」
+52. 信达开源：https://xindakaimai.com 「企业级开源模型服务、合规备案、可开票」【失效】
 
-53. 天联开源：https://tianliankaiyuan.cn 「国内加速、开源模型全覆盖、性价比高」【待验证】
+53. 天联开源：https://tianliankaiyuan.cn 「国内加速、开源模型全覆盖、性价比高」【失效】
 
-54. 亿通开源：https://yitongkaiyuan.com 「新手友好、开源模型一键调用、操作便捷」
+54. 亿通开源：https://yitongkaiyuan.com 「新手友好、开源模型一键调用、操作便捷」【失效】
 
-55. 恒通开源：https://hengtongkaiyuan.cn 「开源模型推理优化、高精准、适合科研」
+55. 恒通开源：https://hengtongkaiyuan.cn 「开源模型推理优化、高精准、适合科研」【失效】
 
 ---
 
-## 三、Claude Code/CodeX/Gemini CLI专用中转站（70家）
+## 三、Claude Code/CodeX/Gemini CLI专用中转站（75家）
 
 ✅ 核心特点：仅支持在IDE（VS Code、PyCharm等）、CLI环境调用，专注代码生成、调试、优化，不支持通用文本/图片API，适合开发者使用。
 
 1. packyapi：https://www.packyapi.com 「注册送1刀、支持Claude Code/Gemini CLI」
 
-2. DuckCoding：https://duckcoding.com 「注册送1刀、分组定价、可开票」【待验证】
+2. DuckCoding：https://duckcoding.com 「注册送1刀、分组定价、可开票」
 
 3. Right Code（API版）：https://api.right.codes 「注册送1刀、Claude Code/CodeX专用」【失效】
 
@@ -360,17 +386,17 @@
 
 11. UUCode：https://www.uucode.org 「可开票、CodeX专用、企业级」【失效】
 
-12. Augmunt：https://www.augmunt.com 「国际线路、CodeX/Claude Code支持」【待验证】
+12. Augmunt：https://www.augmunt.com 「国际线路、CodeX/Claude Code支持」
 
 13. CCHK：https://cchk.ai/ 「Claude Code专用、低价格、测试友好」【失效】
 
-14. CodeLink：https://codelink.dev 「CodeX专用、多IDE适配、轻量调用」【待验证】
+14. CodeLink：https://codelink.dev 「CodeX专用、多IDE适配、轻量调用」
 
-15. CodeHub：https://codehub.ai 「全代码模型聚合、按需计费」【待验证】
+15. CodeHub：https://codehub.ai 「全代码模型聚合、按需计费」【失效】
 
 16. CodeFast：https://codefast.ai 「极速响应、代码生成专用」【失效】
 
-17. CodePro：https://codepro.dev 「企业级、CodeX/Claude Code双支持」【待验证】
+17. CodePro：https://codepro.dev 「企业级、CodeX/Claude Code双支持」【失效】
 
 18. CodeMax：https://codemax.ai 「高并发、适合批量代码生成」【失效】
 
@@ -378,19 +404,19 @@
 
 20. CodeStar：https://codestar.ai 「Claude Code专用、稳定可靠」【失效】
 
-21. CodeCloud：https://codecloud.dev 「云托管、代码模型聚合」【待验证】
+21. CodeCloud：https://codecloud.dev 「云托管、代码模型聚合」
 
 22. CodeNet：https://codenet.ai 「多线路、低延迟、代码调试专用」【失效】
 
-23. CodeLab：https://codelab.dev 「开发者友好、支持二次开发」【待验证】
+23. CodeLab：https://codelab.dev 「开发者友好、支持二次开发」【失效】
 
 24. CodeBox：https://codebox.ai 「轻量易用、CLI适配、无最低消费」【失效】
 
-25. CodePad：https://codepad.dev 「代码片段生成、快速调用」【待验证】
+25. CodePad：https://codepad.dev 「代码片段生成、快速调用」【失效】
 
 26. CodeRun：https://coderun.ai 「代码运行+生成、双功能支持」【失效】
 
-27. CodeBuild：https://codebuild.dev 「企业级、代码构建+生成」【待验证】
+27. CodeBuild：https://codebuild.dev 「企业级、代码构建+生成」【失效】
 
 28. CodeMake：https://codemake.ai 「代码生成优化、精准度高」【失效】
 
@@ -416,71 +442,81 @@
 
 39. CodeLite：https://codelite.dev 「轻量、低资源占用、CLI适配」【失效】
 
-40. CodePlus：https://codeplus.ai 「企业级、定制化代码服务」【待验证】
+40. CodePlus：https://codeplus.ai 「企业级、定制化代码服务」
 
-41. CodeXPro：https://codexpro.dev 「CodeX专用、高精准、稳定」【待验证】
+41. CodeXPro：https://codexpro.dev 「CodeX专用、高精准、稳定」【失效】
 
 42. CodeXMax：https://codexmax.ai 「CodeX专用、高并发、批量支持」【失效】
 
 43. CodeXFast：https://codexfast.ai 「CodeX专用、极速响应」【失效】
 
-44. CodeXLink：https://codexlink.dev 「CodeX专用、多IDE适配」【待验证】
+44. CodeXLink：https://codexlink.dev 「CodeX专用、多IDE适配」【失效】
 
-45. CodeXHub：https://codexhub.ai 「CodeX专用、模型聚合、按需计费」【待验证】
+45. CodeXHub：https://codexhub.ai 「CodeX专用、模型聚合、按需计费」
 
-46. CodeMall：https://codemall.dev 「Claude Code/Gemini CLI双支持、注册送测试金」
+46. CodeMall：https://codemall.dev 「Claude Code/Gemini CLI双支持、注册送测试金」【失效】
 
 47. DevCode：https://devcode.ai 「开发者专用、代码调试+生成、多IDE适配」
 
-48. CodePulse：https://codepulse.dev 「低延迟、代码生成极速、CLI专用」【待验证】
+48. CodePulse：https://codepulse.dev 「低延迟、代码生成极速、CLI专用」【失效】
 
-49. ProCode：https://procode.ai 「企业级、可开票、CodeX/Claude Code双支持」
+49. ProCode：https://procode.ai 「企业级、可开票、CodeX/Claude Code双支持」【失效】
 
-50. FastCode：https://fastcode.dev 「批量代码生成、高并发、适合开发团队」
+50. FastCode：https://fastcode.dev 「批量代码生成、高并发、适合开发团队」【待验证】
 
 51. CodeFlow：https://codeflow.ai 「代码优化专用、精准度高、CLI适配」
 
-52. DevLink：https://devlink.dev 「多代码模型聚合、一键切换、操作简单」
+52. DevLink：https://devlink.dev 「多代码模型聚合、一键切换、操作简单」【待验证】
 
-53. CodeNest：https://codenest.ai 「轻量易用、新手友好、注册送1刀测试金」
+53. CodeNest：https://codenest.ai 「轻量易用、新手友好、注册送1刀测试金」【失效】
 
-54. ProDev：https://prodev.ai 「企业级代码服务、合规备案、技术支持」
+54. ProDev：https://prodev.ai 「企业级代码服务、合规备案、技术支持」【失效】
 
 55. CodeRush：https://coderush.dev 「极速响应、延迟≤50ms、代码生成专用」
 
-56. DevAI：https://devai.ai 「Claude Code专用、低价格、测试友好」【待验证】
+56. DevAI：https://devai.ai 「Claude Code专用、低价格、测试友好」
 
 57. CodeBridge：https://codebridge.dev 「CodeX专用、多IDE适配、轻量调用」
 
 58. DevFlow：https://devflow.ai 「代码调试+生成、双功能、开发者友好」
 
-59. CodePioneer：https://codepioneer.dev 「开源代码模型支持、二次开发友好」
+59. CodePioneer：https://codepioneer.dev 「开源代码模型支持、二次开发友好」【失效】
 
-60. DevPro：https://devpro.ai 「企业级、可开票、批量代码调用支持」
+60. DevPro：https://devpro.ai 「企业级、可开票、批量代码调用支持」【失效】
 
-61. CodeStorm：https://codestorm.dev 「高并发、适合流量较大开发场景」
+61. CodeStorm：https://codestorm.dev 「高并发、适合流量较大开发场景」【失效】
 
-62. DevQuick：https://devquick.ai 「轻量、快速调用、个人测试首选」
+62. DevQuick：https://devquick.ai 「轻量、快速调用、个人测试首选」【失效】
 
 63. CodeSharp：https://codesharp.dev 「代码生成精准度高、CLI专用、稳定」
 
-64. DevMall：https://devmall.ai 「多代码模型聚合、按需计费、无最低消费」
+64. DevMall：https://devmall.ai 「多代码模型聚合、按需计费、无最低消费」【失效】
 
-65. CodeVibe：https://codevibe.dev 「Gemini CLI专用、低延迟、国际线路」【待验证】
+65. CodeVibe：https://codevibe.dev 「Gemini CLI专用、低延迟、国际线路」【失效】
 
-66. DevCodePro：https://devcodepro.ai 「企业级、定制化代码服务、合规友好」
+66. DevCodePro：https://devcodepro.ai 「企业级、定制化代码服务、合规友好」【失效】
 
 67. CodeWave：https://codewave.dev 「代码片段生成、快速调用、新手友好」
 
-68. DevLinkPro：https://devlinkpro.ai 「多IDE适配、代码模型一键切换」
+68. DevLinkPro：https://devlinkpro.ai 「多IDE适配、代码模型一键切换」【失效】
 
-69. CodeForge：https://codeforge.dev 「代码生成+优化、双功能、性价比高」
+69. CodeForge：https://codeforge.dev 「代码生成+优化、双功能、性价比高」【失效】
 
 70. DevFast：https://devfast.ai 「极速响应、批量代码生成、适合开发团队」
 
+71. OfoxAI：https://ofox.ai 「原生Anthropic格式、Claude Code/OpenClaw原生集成、81+模型、国内直连」
+
+72. 灵芽API（CLI版）：https://api.lingyaai.cn 「Claude Code/Gemini CLI双支持、国内专线、低延迟」
+
+73. 云雾API：https://yunwu.ai 「Claude Code/Gemini CLI支持、0.5元/美元、500+模型」
+
+74. CloseAI：https://www.closeai-asia.com 「Claude Code/CodeX全支持、企业级高可用、高并发」
+
+75. EasyRouter：https://easyrouter.com 「傅盛出品、统一接口调40+模型、新用户送400积分、全线85折」
+
 ---
 
-## 四、国际AI API中转站（50家）
+## 四、国际AI API中转站（59家）
 
 ✅ 核心特点：海外官转、模型最全（覆盖最新GPT-4 Turbo、Claude 3 Opus等），稳定性极高，适合有海外支付能力、追求极致稳定或需要新模型的用户。
 
@@ -488,7 +524,7 @@
 
 2. MegaLLM：https://megallm.io 「单API访问70+模型、官转稳定、全球可用」
 
-3. Chutes：https://chutes.ai 「多模型聚合、海外稳定线路、低延迟」【待验证】
+3. Chutes：https://chutes.ai 「多模型聚合、海外稳定线路、低延迟」
 
 4. DigitalOcean Gradient：https://www.digitalocean.com/products/gradient 「开源模型为主、稳定高速」
 
@@ -546,7 +582,7 @@
 
 31. AI21 Labs API：https://api.ai21.com 「文本生成、多语言支持、企业级稳定」
 
-32. Anthropic Claude Enterprise：https://enterprise.anthropic.com 「企业级Claude API、合规备案、高并发」
+32. Anthropic Claude Enterprise：https://www.anthropic.com/enterprise 「企业级Claude API、合规备案、高并发」
 
 33. Google Cloud AI API：https://cloud.google.com/ai 「Google生态、多模型支持、全球可用」
 
@@ -584,13 +620,31 @@
 
 50. Stripe AI API：https://stripe.com/docs/ai 「支付场景、AI风控、合规备案」
 
+51. OfoxAI（国际版）：https://ofox.ai 「统一API、GPT/Claude/Gemini全支持、原生Anthropic格式、99.9%可用」
+
+52. DeepSeek官方API：https://platform.deepseek.com 「DeepSeek官方、超低价格、开源模型」
+
+53. Groq Cloud：https://groq.com 「开源模型超低延迟、LPU推理引擎、免费额度」
+
+54. Fireworks AI：https://fireworks.ai 「开源模型聚合、高算力、低价格、企业级」
+
+55. DeepInfra：https://deepinfra.com 「开源模型推理、按量计费、低延迟」
+
+56. TokenMix：https://tokenmix.ai 「多模型聚合、支付宝/微信/Stripe支付、OpenAI兼容、1美元起充」
+
+57. B.AI：https://b.ai 「孙宇晨推出、一个API Key调全系列模型、USDT支付、高额补贴」
+
+58. DMXAPI：https://dmxapi.com 「480+模型聚合、三大原生协议支持、企业级稳定性、99.99% SLA」
+
+59. NanoBanana：https://nanobanana.com 「图像生成专用、Gemini 3 Pro Image/4K超清、官方2折」
+
 ---
 
-## 五、轻量测试/小众中转站（40家）
+## 五、轻量测试/小众中转站（45家）
 
 ✅ 核心特点：注册送测试金、小额可用、操作简单，适合个人短期测试、体验AI API，不适合生产环境，部分平台可能存在稳定性不足的问题。
 
-1. 银河录像局：https://api.nf.video 「注册送0.4刀、可开票、Claude Code独立站」【待验证】
+1. 银河录像局：https://api.nf.video 「注册送0.4刀、可开票、Claude Code独立站」
 
 2. OAIPro：https://api.oaipro.com 「官转、价格同官方、稳定可靠」【失效】
 
@@ -669,6 +723,16 @@
 39. AI大礼：https://aidali.com 「大礼、超级福利、限时抢购」【失效】
 
 40. AI有利：https://aiyouli.com 「有利、多重优势、优选平台」【失效】
+
+41. 神马中转API（测试版）：https://api.whatai.cc 「新用户免费试用、650+模型、国内直连」
+
+42. 云雾API（免费子站）：https://free.yunwu.ai 「GitHub登录即用、每日免费GPT-4o额度、无需充值」
+
+43. CloseAI：https://www.closeai-asia.com 「企业级官转、高可用架构、支持企业发票、高并发」
+
+44. AIHubMix：https://aihubmix.com 「开发者快速接入、多模型聚合、免费测试额度」
+
+45. TokenMix：https://tokenmix.ai 「多模型聚合、支持支付宝/微信/Stripe、1美元起充、OpenAI兼容」
 
 ---
 
