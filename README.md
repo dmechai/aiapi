@@ -22,21 +22,21 @@
 
 ## 目录
 
-1. [国内综合全能中转站（85家）](https://www.doubao.cn) - 中文客服+支付宝/微信+可开票，适配企业/个人
+1. [国内综合全能中转站](#一国内综合全能中转站) - 中文客服+支付宝/微信+可开票，适配企业/个人
 
-2. [国内开源模型专属中转站（55家）](https://www.doubao.cn) - 专注Llama/Qwen/DeepSeek等开源模型
+2. [国内开源模型专属中转站](#二国内开源模型专属中转站) - 专注Llama/Qwen/DeepSeek等开源模型
 
-3. [Claude Code/CodeX/Gemini CLI专用中转站（70家）](https://www.doubao.cn) - 仅适配IDE/CLI环境调用
+3. [Claude Code/CodeX/Gemini CLI专用中转站](#三claudecodecodexgemini-cli专用中转站) - 仅适配IDE/CLI环境调用
 
-4. [国际AI API中转站（50家）](https://www.doubao.cn) - 海外官转、模型最全、稳定优先
+4. [国际AI API中转站](#四国际ai-api中转站) - 海外官转、模型最全、稳定优先
 
-5. [轻量测试/小众中转站（40家）](https://www.doubao.cn) - 送测试金、小额可用，适合短期测试
+5. [轻量测试/小众中转站](#五轻量测试小众中转站) - 送测试金、小额可用，适合短期测试
 
-6. [选型速查表](https://www.doubao.cn) - 按场景快速匹配最优平台
+6. [选型速查表](#六选型速查表) - 按场景快速匹配最优平台
 
-7. [安全避坑指南](https://www.doubao.cn) - 新手必看，避免踩雷
+7. [安全避坑指南](#七安全避坑指南) - 新手必看，避免踩雷
 
-8. [贡献指南](https://www.doubao.cn) - 如何补充新的中转站信息
+8. [贡献指南](#八贡献指南) - 如何补充新的中转站信息
 
 ---
 

@@ -24,11 +24,11 @@ Last Updated: May 15, 2026
 
 ## Table of Contents
 
-1. [Domestic Comprehensive Transfer Stations (85)](#1-domestic-comprehensive-transfer-stations-85) - Chinese customer service + Alipay/WeChat + invoicing, suitable for enterprises/individuals
-2. [Domestic Open Source Model Transfer Stations (55)](#2-domestic-open-source-model-transfer-stations-55) - Focus on Llama/Qwen/DeepSeek and other open source models
-3. [Claude Code/CodeX/Gemini CLI Transfer Stations (70)](#3-claude-codecodexgemini-cli-transfer-stations-70) - Only for IDE/CLI environment calls
-4. [International AI API Transfer Stations (50)](#4-international-ai-api-transfer-stations-50) - Overseas official transfer, most complete models, stability priority
-5. [Lightweight Testing/Niche Transfer Stations (40)](#5-lightweight-testingniche-transfer-stations-40) - Free testing credits, small amounts available, suitable for short-term testing
+1. [Domestic Comprehensive Transfer Stations](#1-domestic-comprehensive-transfer-stations) - Chinese customer service + Alipay/WeChat + invoicing, suitable for enterprises/individuals
+2. [Domestic Open Source Model Transfer Stations](#2-domestic-open-source-model-transfer-stations) - Focus on Llama/Qwen/DeepSeek and other open source models
+3. [Claude Code/CodeX/Gemini CLI Transfer Stations](#3-claude-codecodexgemini-cli-transfer-stations) - Only for IDE/CLI environment calls
+4. [International AI API Transfer Stations](#4-international-ai-api-transfer-stations) - Overseas official transfer, most complete models, stability priority
+5. [Lightweight Testing/Niche Transfer Stations](#5-lightweight-testingniche-transfer-stations) - Free testing credits, small amounts available, suitable for short-term testing
 6. [Quick Selection Guide](#6-quick-selection-guide) - Quickly match the best platform by scenario
 7. [Safety & Avoiding Pitfalls Guide](#7-safety--avoiding-pitfalls-guide) - Must-read for beginners to avoid pitfalls
 8. [Contribution Guide](#8-contribution-guide) - How to supplement new transfer station information
