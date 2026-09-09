@@ -103,6 +103,8 @@
 28. 4SAPI（星链引擎）：https://api.4sapi.com 「政企级稳定、CN2专线、低延迟、SLA保障」【待验证】
 
 29. 百川API：https://baichuanapi.com 「百川大模型专属、兼容第三方模型」【待验证】
+    
+30. 柴柴AI：https://chaiai.cc 「省心稳定，新手友好，多模型聚合」
 
 ---
 
@@ -445,6 +447,8 @@
 7. 一叶知秋API：https://88996.cloud/ 「轻量、测试友好、无最低消费、适合短期测试」
 
 8. TokenMix：https://tokenmix.ai 「多模型聚合、支持支付宝/微信/Stripe、1美元起充、OpenAI兼容」
+
+9.柴柴AI：https://chaiai.cc 「省心稳定，新手友好，多模型聚合」
 
 ---
 
